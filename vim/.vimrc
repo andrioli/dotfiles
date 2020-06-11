@@ -22,6 +22,10 @@ nmap <C-H> <C-W><C-H>
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-L> <C-W><C-L>
+" Buffer navigation
+nmap <Leader>, :bprevious<cr>
+nmap <Leader>. :bnext<cr>
+nmap <Leader>x :bdelete<cr>
 
 " Auto commands
 
