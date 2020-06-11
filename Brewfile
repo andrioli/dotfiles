@@ -16,6 +16,12 @@ brew "watch"
 brew "gnupg"
 brew "pinentry-mac"
 
+# Java
+brew "openjdk"
+brew "maven"
+brew "ant"
+brew "jenv"
+
 # casks
 cask "authy"
 cask "google-backup-and-sync"
