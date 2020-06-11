@@ -10,6 +10,7 @@ tap "adoptopenjdk/openjdk"
 brew "fzf"
 brew "icdiff"
 brew "libfaketime"
+brew "stow"
 brew "tree"
 brew "watch"
 
