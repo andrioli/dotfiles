@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "adoptopenjdk/openjdk"
 
 # utilities
 brew "fzf"
@@ -21,6 +22,9 @@ brew "openjdk"
 brew "maven"
 brew "ant"
 brew "jenv"
+cask "java6"
+cask "adoptopenjdk8"
+cask "adoptopenjdk11"
 
 # casks
 cask "authy"
