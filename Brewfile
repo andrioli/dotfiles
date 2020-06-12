@@ -7,12 +7,16 @@ tap "homebrew/services"
 tap "adoptopenjdk/openjdk"
 
 # utilities
+brew "exa"
+brew "fd"
 brew "fzf"
+brew "htop"
 brew "icdiff"
 brew "libfaketime"
 brew "stow"
 brew "tree"
 brew "watch"
+brew "wget"
 
 # GnuPG and GPGTools/pinentry-mac
 brew "gnupg"
