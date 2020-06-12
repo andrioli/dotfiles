@@ -1,3 +1,5 @@
+source ~/.vim/plugins.vim
+
 syntax enable
 
 " Visual
