@@ -4,6 +4,8 @@ syntax enable
 
 " Visual
 
+" Colorscheme
+colorscheme seoul256
 " Show line numbers
 set number
 " Highlight serach results
