@@ -1,0 +1,11 @@
+# Temporary files
+*~
+
+# macOS
+.DS_Store
+
+# direnv
+.envrc
+
+# Visual Studio Code
+**/.vscode/settings.json
