@@ -7,6 +7,7 @@ tap "homebrew/services"
 tap "adoptopenjdk/openjdk"
 
 # utilities
+brew "bat"
 brew "exa"
 brew "fd"
 brew "fzf"
