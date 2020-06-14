@@ -30,6 +30,13 @@ nmap <C-L> <C-W><C-L>
 nmap <Leader>, :bprevious<cr>
 nmap <Leader>. :bnext<cr>
 nmap <Leader>x :bdelete<cr>
+" Toggle NERDTree
+nmap <C-n> :NERDTreeToggle<cr>
+
+" Plugins configurations
+
+" NERDTree
+let NERDTreeHijackNetrw=0
 
 " Auto commands
 
