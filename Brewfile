@@ -34,6 +34,7 @@ cask "adoptopenjdk11"
 
 # casks
 cask "authy"
+cask "docker"
 cask "google-backup-and-sync"
 cask "google-chrome"
 cask "iterm2"
