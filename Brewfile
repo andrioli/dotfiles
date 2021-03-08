@@ -44,6 +44,7 @@ cask "iterm2"
 cask "keepassx"
 cask "keybase"
 cask "spotify"
+cask "the-unarchiver"
 cask "visual-studio-code"
 
 # android
