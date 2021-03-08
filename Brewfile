@@ -33,6 +33,7 @@ brew "jenv"
 cask "java6"
 cask "adoptopenjdk8"
 cask "adoptopenjdk11"
+cask "eclipse-java"
 
 # casks
 cask "authy"
