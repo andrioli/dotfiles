@@ -43,6 +43,7 @@ cask "google-chrome"
 cask "iterm2"
 cask "keepassx"
 cask "spotify"
+cask "visual-studio-code"
 
 # android
 cask "android-file-transfer"
