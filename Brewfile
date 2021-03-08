@@ -42,6 +42,7 @@ cask "google-backup-and-sync"
 cask "google-chrome"
 cask "iterm2"
 cask "keepassx"
+cask "keybase"
 cask "spotify"
 cask "visual-studio-code"
 
