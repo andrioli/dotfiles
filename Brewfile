@@ -44,5 +44,9 @@ cask "iterm2"
 cask "keepassx"
 cask "spotify"
 
+# android
+cask "android-file-transfer"
+cask "android-platform-tools"
+
 # fonts
 cask "font-fira-code"
