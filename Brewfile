@@ -45,6 +45,9 @@ cask "keepassx"
 cask "keybase"
 cask "spotify"
 cask "the-unarchiver"
+cask "vagrant"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
 cask "visual-studio-code"
 
 # android
