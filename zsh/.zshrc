@@ -7,3 +7,7 @@ antigen theme robbyrussell
 antigen bundle zsh-users/zsh-autosuggestions
 
 antigen apply
+
+# Configure jEnv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
