@@ -8,6 +8,7 @@ tap "homebrew/services"
 tap "adoptopenjdk/openjdk"
 
 # utilities
+brew "antigen"
 brew "bat"
 brew "exa"
 brew "fd"
