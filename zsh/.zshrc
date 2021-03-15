@@ -12,3 +12,6 @@ antigen apply
 # Configure jEnv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# Configure chruby
+source /usr/local/opt/chruby/share/chruby/chruby.sh
