@@ -41,6 +41,7 @@ cask "eclipse-java"
 # casks
 cask "authy"
 cask "caffeine"
+cask "deezer"
 cask "docker"
 cask "google-backup-and-sync"
 cask "google-chrome"
