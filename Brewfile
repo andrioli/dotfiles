@@ -53,6 +53,7 @@ cask "vagrant"
 cask "virtualbox"
 cask "virtualbox-extension-pack"
 cask "visual-studio-code"
+cask "whatsapp"
 
 # android
 cask "android-file-transfer"
