@@ -588,6 +588,10 @@
       "jenv": {
         "version": "0.5.4",
         "bottle": false
+      },
+      "gradle": {
+        "version": "6.8.3",
+        "bottle": false
       }
     },
     "cask": {
