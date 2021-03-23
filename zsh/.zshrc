@@ -10,7 +10,6 @@ antigen bundle lukechilds/zsh-nvm
 antigen apply
 
 # Configure jEnv
-export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 # Configure chruby
