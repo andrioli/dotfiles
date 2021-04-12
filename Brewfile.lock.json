@@ -773,6 +773,12 @@
         "options": {
           "full_name": "font-fira-code"
         }
+      },
+      "font-jetbrains-mono": {
+        "version": "2.225",
+        "options": {
+          "full_name": "font-jetbrains-mono"
+        }
       }
     }
   },
