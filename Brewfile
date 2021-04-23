@@ -38,8 +38,8 @@ brew "ant"
 brew "gradle"
 brew "jenv"
 cask "java6"
-cask "adoptopenjdk8"
-cask "adoptopenjdk11"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "adoptopenjdk/openjdk/adoptopenjdk11"
 cask "eclipse-java"
 
 # casks
