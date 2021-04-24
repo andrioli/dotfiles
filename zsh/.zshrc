@@ -9,6 +9,8 @@ antigen bundle lukechilds/zsh-nvm
 
 antigen apply
 
+source .aliases
+
 # Configure jEnv
 eval "$(jenv init -)"
 
