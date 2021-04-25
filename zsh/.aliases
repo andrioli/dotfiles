@@ -47,3 +47,34 @@ done
 
 # File size in bytes
 alias fs="stat -f '%z bytes'"
+
+# CSV utilities
+# Convert commas to tabs
+alias comma_tab="sed 's/,/	/g'"
+
+# Convert tabs to commas
+alias tab_comma="sed 's/	/,/g'"
+
+# Convert commas to spaces
+alias comma_space="sed 's/,/ /g'"
+
+# Convert spaces to commas
+alias space_comma="sed 's/ /,/g'"
+
+# Skipe header (aka first line)
+alias skip_head="tail -n +2"
+
+# Convert new lines to a comma-separated list
+alias as_list="tr '\n' ',' | sed 's/,$//g'"
+
+# Convert a comma-separeted list to new lines
+alias as_lines="tr ',' '\n'"
+
+# Add quotes for each line
+alias quote="sed \"s/^..*$/'&'/\""
+
+# Add double quotes for each line
+alias double_quote="sed 's/^..*$/\"&\"/'"
+
+# Remove duplicates without change order
+alias dedup="awk '!visited[\$0]++'"
