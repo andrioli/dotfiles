@@ -1,0 +1,54 @@
+bold=$(tput bold)
+normal=$(tput sgr0)
+red=$(tput setaf 1)
+
+function git-summary() {
+  echo "${bold}Branches:${normal}"
+  git --no-pager branch
+
+  echo "\n${bold}Remotes:${normal}"
+  git remote -v
+
+  output=`script -q /dev/null git status -s --ignored`
+  if [[ $output ]]; then
+    echo "\n${bold}Status:${normal}"
+    echo $output
+  fi
+
+  output=`script -q /dev/null git --no-pager stash list`
+  if [[ $output ]]; then
+    echo "\n${bold}Stash:${normal}"
+    echo $output
+  fi
+}
+
+function git-cleanup() {
+  # Stash any changes
+  git stash
+
+  # Get origin default branch
+  defaultBranch=`git remote show origin | awk '/HEAD branch/ {print $NF}'`
+
+  # Checkout default branch
+  git checkout $defaultBranch
+
+  # Pull and prune origin
+  if git remote | grep -q '^origin$'; then
+    git pull
+    git remote prune origin
+  fi
+
+  # Pull and prune upstream
+  if git remote | grep -q '^upstream$'; then
+    git fetch upstream
+    git remote prune upstream
+  fi
+
+  output=`git --no-pager stash list`
+  if [[ ! $output ]]; then
+    git reflog expire --all --expire=all --expire-unreachable=all
+    git gc --aggressive --prune=now
+  else
+    echo "${red}Skip cleanup to avoid lost stashed changes${normal}"
+  fi
+}
