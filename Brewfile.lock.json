@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "9ee0d9912401eca4f21310bd19876a8cbac63f6d"
+        "revision": "ff52a209bfade1a663848684d354a6b623aaa4ca"
       },
       "homebrew/cask": {
-        "revision": "d55e7a51e7c061315218719471590f851a214399"
+        "revision": "835339964d4b10b01037c0b529fe2f1d102dc87d"
       },
       "homebrew/cask-fonts": {
-        "revision": "ea3b3f82daaa37aa6cf8d6c6bd170263cf2b093a"
+        "revision": "84535dd6d8ce8bedd2922c8688e608bb4c9d7b5c"
       },
       "homebrew/cask-versions": {
-        "revision": "4d5d95679da78f106d3eded0945db7f42077872f"
+        "revision": "5206a1d4de507d23268af308847df34624967c3a"
       },
       "homebrew/core": {
-        "revision": "9f38748280579f3e307c70c65e2ce531573993cf"
+        "revision": "2009bd60791173697793c30c0aac600f380dfddd"
       },
       "homebrew/services": {
         "revision": "953a962d37c2cecc01f56d3e5d89814e5772abfb"
@@ -697,7 +697,7 @@
         }
       },
       "iterm2": {
-        "version": "3.4.5",
+        "version": "3.4.6",
         "options": {
           "full_name": "iterm2"
         }
@@ -791,9 +791,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.1.3-91-gfb7d19c",
+        "HOMEBREW_VERSION": "3.1.3-105-gc5bcfe8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9f38748280579f3e307c70c65e2ce531573993cf",
+        "Homebrew/homebrew-core": "2009bd60791173697793c30c0aac600f380dfddd",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.0",
         "macOS": "10.15.7"
