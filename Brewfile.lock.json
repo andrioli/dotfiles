@@ -2,19 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "ff52a209bfade1a663848684d354a6b623aaa4ca"
+        "revision": "f2bd8c65a51fcaf1d6cc91f9548687b0df62402b"
       },
       "homebrew/cask": {
-        "revision": "835339964d4b10b01037c0b529fe2f1d102dc87d"
+        "revision": "af9884a5e3873439a546d4f5158e22d4c2109209"
       },
       "homebrew/cask-fonts": {
         "revision": "84535dd6d8ce8bedd2922c8688e608bb4c9d7b5c"
       },
       "homebrew/cask-versions": {
-        "revision": "5206a1d4de507d23268af308847df34624967c3a"
+        "revision": "f7fbcd80d97f85b2c9f246178d866e0bbd79eb6a"
       },
       "homebrew/core": {
-        "revision": "2009bd60791173697793c30c0aac600f380dfddd"
+        "revision": "bc823f4bd061ba130664c4636aff3d4754335885"
       },
       "homebrew/services": {
         "revision": "953a962d37c2cecc01f56d3e5d89814e5772abfb"
@@ -691,7 +691,7 @@
         }
       },
       "google-chrome": {
-        "version": "90.0.4430.85",
+        "version": "90.0.4430.93",
         "options": {
           "full_name": "google-chrome"
         }
@@ -751,7 +751,7 @@
         }
       },
       "whatsapp": {
-        "version": "2.2114.8",
+        "version": "2.2114.9",
         "options": {
           "full_name": "whatsapp"
         }
@@ -791,9 +791,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.1.3-105-gc5bcfe8",
+        "HOMEBREW_VERSION": "3.1.3-122-gb9125d8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "2009bd60791173697793c30c0aac600f380dfddd",
+        "Homebrew/homebrew-core": "bc823f4bd061ba130664c4636aff3d4754335885",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.0",
         "macOS": "10.15.7"
