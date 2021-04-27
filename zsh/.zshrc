@@ -9,6 +9,10 @@ antigen bundle lukechilds/zsh-nvm
 
 antigen apply
 
+if [ -f ~/.profile ]; then
+  source ~/.profile
+fi
+
 source ~/.aliases
 source ~/.functions
 
