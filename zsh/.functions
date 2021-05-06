@@ -6,8 +6,11 @@ function git-summary() {
   echo "${bold}Branches:${normal}"
   git --no-pager branch
 
-  echo "\n${bold}Remotes:${normal}"
-  git remote -v
+  output=`script -q /dev/null git remote -v`
+  if [[ $output ]]; then
+    echo "\n${bold}Remotes:${normal}"
+    echo $output
+  fi
 
   output=`script -q /dev/null git status -s --ignored`
   if [[ $output ]]; then
