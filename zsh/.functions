@@ -26,14 +26,14 @@ function git-cleanup() {
   # Stash any changes
   git stash
 
-  # Get origin default branch
-  defaultBranch=`git remote show origin | awk '/HEAD branch/ {print $NF}'`
-
-  # Checkout default branch
-  git checkout $defaultBranch
-
   # Pull and prune origin
   if git remote | grep -q '^origin$'; then
+    # Get origin default branch
+    defaultBranch=`git remote show origin | awk '/HEAD branch/ {print $NF}'`
+
+    # Checkout default branch
+    git checkout $defaultBranch
+
     git pull
     git remote prune origin
   fi
