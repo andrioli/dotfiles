@@ -81,3 +81,6 @@ alias dedup="awk '!visited[\$0]++'"
 
 # Listing Java versions
 alias jls='/usr/libexec/java_home -V 2>&1 | grep -E "^\s+(\d+\.?)+\d(_.*,)?" | cut -d , -f 1 | colrm 1 4 | sort | uniq'
+
+# Listing Docker images and versions
+alias docker-images='docker images | sed "s/  */:/g" | cut -d: -f1-2 | tail -n +2'

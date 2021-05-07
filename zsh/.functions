@@ -55,3 +55,9 @@ function git-cleanup() {
     echo "${red}Skip cleanup to avoid lost stashed changes${normal}"
   fi
 }
+
+function docker-update() {
+  for i in `docker-images`; do
+    docker pull $i
+  done
+}
