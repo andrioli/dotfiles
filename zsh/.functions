@@ -61,3 +61,7 @@ function docker-update() {
     docker pull $i
   done
 }
+
+function remove-from-path() {
+  export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
+}
