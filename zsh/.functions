@@ -8,19 +8,19 @@ function git-summary() {
 
   output=`script -q /dev/null git remote -v`
   if [[ $output ]]; then
-    echo "\n${bold}Remotes:${normal}"
+    echo "${bold}Remotes:${normal}"
     echo $output
   fi
 
   output=`script -q /dev/null git status -s --ignored`
   if [[ $output ]]; then
-    echo "\n${bold}Status:${normal}"
+    echo "${bold}Status:${normal}"
     echo $output
   fi
 
   output=`script -q /dev/null git --no-pager stash list`
   if [[ $output ]]; then
-    echo "\n${bold}Stash:${normal}"
+    echo "${bold}Stash:${normal}"
     echo $output
   fi
 }
