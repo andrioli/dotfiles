@@ -61,7 +61,7 @@ alias comma_space="sed 's/,/ /g'"
 # Convert spaces to commas
 alias space_comma="sed 's/ /,/g'"
 
-# Skipe header (aka first line)
+# Skip header (aka first line)
 alias skip_head="tail -n +2"
 
 # Convert new lines to a comma-separated list
