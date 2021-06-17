@@ -5,16 +5,16 @@
         "revision": "5b6fa2f5fe5df3ff2cc5436045e1934b9be4ac13"
       },
       "homebrew/cask": {
-        "revision": "06ca83621c1c8d89e69a50d332065dba26001161"
+        "revision": "c53fb4a69cb48a502ed1fedb7dba7b46c0edc447"
       },
       "homebrew/cask-fonts": {
         "revision": "56b5f04cc3904df158fa632c3776943d3e8177c2"
       },
       "homebrew/cask-versions": {
-        "revision": "d6aab68fd755cad37bc8a34d109ff1a3c85d4b4e"
+        "revision": "d4f141f5c71c73795e6fd76e9a3ff2c4a58ec0c7"
       },
       "homebrew/core": {
-        "revision": "338328ef72930c390ddab4fed390350410893b43"
+        "revision": "3f8fd783af46e60ed4669038a3f86b5be2ac158e"
       },
       "homebrew/services": {
         "revision": "76069e10fcc362e480f360ad0e046095c5e817b6"
@@ -831,7 +831,7 @@
         }
       },
       "eclipse-java": {
-        "version": "4.19.0,2021-03:R",
+        "version": "4.20.0,2021-06:R",
         "options": {
           "full_name": "eclipse-java"
         }
@@ -967,9 +967,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.1.12-75-ge71a0ed",
+        "HOMEBREW_VERSION": "3.1.12-79-ge4ad1a3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "338328ef72930c390ddab4fed390350410893b43",
+        "Homebrew/homebrew-core": "3f8fd783af46e60ed4669038a3f86b5be2ac158e",
         "CLT": "12.0.0.32.29",
         "Xcode": "12.4",
         "macOS": "10.15.7"
