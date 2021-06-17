@@ -1,0 +1,128 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "c53fb4a69cb48a502ed1fedb7dba7b46c0edc447"
+      },
+      "homebrew/core": {
+        "revision": "d0c99e00656c4fe3ead8b2e24db23483fef3ae3d"
+      }
+    },
+    "brew": {
+      "awscli": {
+        "version": "2.2.12",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:348360e46249a7641c737245a22e838dfae0819e983b8bcd4554777a16165a53",
+              "sha256": "348360e46249a7641c737245a22e838dfae0819e983b8bcd4554777a16165a53"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:d6fb3893dbc440cd466bccf330f0fba4101ed291dfd11d188ddbc022171bb65a",
+              "sha256": "d6fb3893dbc440cd466bccf330f0fba4101ed291dfd11d188ddbc022171bb65a"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:edcadbdf33d436d118940c78c21fc28df82b626a76e10721407046ad81041519",
+              "sha256": "edcadbdf33d436d118940c78c21fc28df82b626a76e10721407046ad81041519"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:2236651ba2cfe8ff85dd9e5028e5189a939e54510aac8a8581a70f33a2f80278",
+              "sha256": "2236651ba2cfe8ff85dd9e5028e5189a939e54510aac8a8581a70f33a2f80278"
+            }
+          }
+        }
+      },
+      "terraform": {
+        "version": "1.0.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform/blobs/sha256:61c3a1e026a6d0cd169d7bb6d8f39e4e692ab9a5cc9a29f715f4be8663ed9a99",
+              "sha256": "61c3a1e026a6d0cd169d7bb6d8f39e4e692ab9a5cc9a29f715f4be8663ed9a99"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform/blobs/sha256:71267fd608fb6333de651fffd3c5d3db5466c258e669b53cca9527c548cf5620",
+              "sha256": "71267fd608fb6333de651fffd3c5d3db5466c258e669b53cca9527c548cf5620"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform/blobs/sha256:fc23f80969060361f3572dc2e700d0447b467fa087db18fa8b67209eb0ba8f99",
+              "sha256": "fc23f80969060361f3572dc2e700d0447b467fa087db18fa8b67209eb0ba8f99"
+            },
+            "mojave": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/terraform/blobs/sha256:b384e58d9b11a5736e0dc82619be2196706792da7d4d534771be37a8f634d1f6",
+              "sha256": "b384e58d9b11a5736e0dc82619be2196706792da7d4d534771be37a8f634d1f6"
+            }
+          }
+        }
+      }
+    },
+    "cask": {
+      "insomnia": {
+        "version": "2021.3.0",
+        "options": {
+          "full_name": "insomnia"
+        }
+      },
+      "intellij-idea-ce": {
+        "version": "2021.1.2,211.7442.40",
+        "options": {
+          "full_name": "intellij-idea-ce"
+        }
+      },
+      "phpstorm": {
+        "version": "2021.1.3,211.7442.50",
+        "options": {
+          "full_name": "phpstorm"
+        }
+      },
+      "pritunl": {
+        "version": "1.2.2799.2",
+        "options": {
+          "full_name": "pritunl"
+        }
+      },
+      "sequel-ace": {
+        "version": "3.3.3,3034",
+        "options": {
+          "full_name": "sequel-ace"
+        }
+      },
+      "sequel-pro": {
+        "version": "1.1.2",
+        "options": {
+          "full_name": "sequel-pro"
+        }
+      },
+      "zoom": {
+        "version": "5.6.7.1020",
+        "options": {
+          "full_name": "zoom"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "3.1.12-79-ge4ad1a3",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "d0c99e00656c4fe3ead8b2e24db23483fef3ae3d",
+        "CLT": "12.0.0.32.29",
+        "Xcode": "12.4",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}

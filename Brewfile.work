@@ -1,0 +1,17 @@
+# taps
+tap "homebrew/cask"
+tap "homebrew/core"
+
+# utilities
+brew "awscli"
+brew "terraform"
+
+# casks
+cask "insomnia"
+cask "intellij-idea-ce"
+cask "phpstorm"
+cask "pritunl"
+cask "sequel-ace"
+cask "sequel-pro"
+cask "zoom"
+
