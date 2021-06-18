@@ -84,3 +84,7 @@ alias jls='/usr/libexec/java_home -V 2>&1 | grep -E "^\s+(\d+\.?)+\d(_.*,)?" | c
 
 # Listing Docker images and versions
 alias docker-images='docker images | sed "s/  */:/g" | cut -d: -f1-2 | tail -n +2'
+
+# un-Gron aliases
+alias norg="gron --ungron"
+alias ungron="gron --ungron"
