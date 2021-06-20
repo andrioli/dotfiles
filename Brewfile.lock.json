@@ -1150,6 +1150,12 @@
         "options": {
           "full_name": "deskreen"
         }
+      },
+      "audacity": {
+        "version": "3.0.2",
+        "options": {
+          "full_name": "audacity"
+        }
       }
     }
   },

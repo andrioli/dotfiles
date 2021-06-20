@@ -53,6 +53,7 @@ cask "adoptopenjdk/openjdk/adoptopenjdk11"
 cask "eclipse-java"
 
 # casks
+cask "audacity"
 cask "authy"
 cask "caffeine"
 cask "deezer"
