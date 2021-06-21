@@ -52,6 +52,7 @@ cask "java6"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
 cask "adoptopenjdk/openjdk/adoptopenjdk11"
 cask "eclipse-java"
+cask "jd-gui"
 
 # casks
 cask "audacity"

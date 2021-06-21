@@ -1205,6 +1205,12 @@
         "options": {
           "full_name": "audacity"
         }
+      },
+      "jd-gui": {
+        "version": "1.6.6",
+        "options": {
+          "full_name": "jd-gui"
+        }
       }
     }
   },
