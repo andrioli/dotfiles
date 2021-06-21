@@ -34,6 +34,7 @@ brew "stow"
 brew "textql"
 brew "tig"
 brew "tree"
+brew "truncate"
 brew "watch"
 brew "wget"
 
