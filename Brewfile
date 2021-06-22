@@ -74,6 +74,10 @@ cask "virtualbox-extension-pack"
 cask "visual-studio-code"
 cask "whatsapp"
 
+if MacOS.version == :mojave
+  cask "horndis"
+end
+
 # android
 cask "android-file-transfer"
 cask "android-platform-tools"

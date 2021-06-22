@@ -1211,6 +1211,12 @@
         "options": {
           "full_name": "jd-gui"
         }
+      },
+      "horndis": {
+        "version": "9.2",
+        "options": {
+          "full_name": "horndis"
+        }
       }
     }
   },
