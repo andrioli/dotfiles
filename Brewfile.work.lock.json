@@ -139,6 +139,12 @@
         "options": {
           "full_name": "zoom"
         }
+      },
+      "dbeaver-community": {
+        "version": "21.1.1",
+        "options": {
+          "full_name": "dbeaver-community"
+        }
       }
     }
   },
