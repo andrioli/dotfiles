@@ -1090,6 +1090,20 @@
             }
           }
         }
+      },
+      "stgit": {
+        "version": "1.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/stgit/blobs/sha256:227e183a55224f7d8386a57330c37d7e3ef0d472b35603ed42b78ed04142dffa",
+              "sha256": "227e183a55224f7d8386a57330c37d7e3ef0d472b35603ed42b78ed04142dffa"
+            }
+          }
+        }
       }
     },
     "cask": {
