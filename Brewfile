@@ -9,6 +9,7 @@ tap "adoptopenjdk/openjdk"
 
 # utilities
 brew "antigen"
+brew "bash"
 brew "bat"
 brew "chruby"
 brew "diff-so-fancy"
