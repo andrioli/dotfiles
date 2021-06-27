@@ -5,16 +5,16 @@
         "revision": "939d2c79693d264b12eb973de72d37195c8fea0d"
       },
       "homebrew/cask": {
-        "revision": "8a0cabc36ac40bc8a2475a6af4631f6572fa2cee"
+        "revision": "5b946c808a475ff8b05f545d6e438d6f3df8a1e4"
       },
       "homebrew/cask-fonts": {
-        "revision": "cc8aa7a9ccbd82633b073ab5b241e2d79e511997"
+        "revision": "29797c1b7b6d26cb3d1dc775e64a1f43753716ab"
       },
       "homebrew/cask-versions": {
-        "revision": "b45af47313101efa9106c716b0f068b6404cc550"
+        "revision": "03592c6a22c9f49c001adaa65f0e0dae9ff6c457"
       },
       "homebrew/core": {
-        "revision": "e863b0f42c1b98f5dd3814a42852948f1b35cb1a"
+        "revision": "d75513610337ca4f1d03c1c35d10538192f1e744"
       },
       "homebrew/services": {
         "revision": "96ce0d448a01238036046b43f68c213d5a81211c"
@@ -263,7 +263,17 @@
       },
       "icdiff": {
         "version": "2.0.0",
-        "bottle": false
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/icdiff/blobs/sha256:6527bb074c26002e16e014b6e887549a9303dad523ffee000229907360130e43",
+              "sha256": "6527bb074c26002e16e014b6e887549a9303dad523ffee000229907360130e43"
+            }
+          }
+        }
       },
       "libfaketime": {
         "version": "0.9.9",
@@ -630,7 +640,32 @@
       },
       "maven": {
         "version": "3.8.1",
-        "bottle": false
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/maven/blobs/sha256:bb95e2849040358e1e30b918c5cfdcfb78535915d834f32f0f5fcb39231a87f6",
+              "sha256": "bb95e2849040358e1e30b918c5cfdcfb78535915d834f32f0f5fcb39231a87f6"
+            },
+            "big_sur": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/maven/blobs/sha256:f894602e16a46f6d40a259c860d8f9d5103baac5681d1803349eaf5b6771f527",
+              "sha256": "f894602e16a46f6d40a259c860d8f9d5103baac5681d1803349eaf5b6771f527"
+            },
+            "catalina": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/maven/blobs/sha256:f894602e16a46f6d40a259c860d8f9d5103baac5681d1803349eaf5b6771f527",
+              "sha256": "f894602e16a46f6d40a259c860d8f9d5103baac5681d1803349eaf5b6771f527"
+            },
+            "mojave": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/maven/blobs/sha256:f894602e16a46f6d40a259c860d8f9d5103baac5681d1803349eaf5b6771f527",
+              "sha256": "f894602e16a46f6d40a259c860d8f9d5103baac5681d1803349eaf5b6771f527"
+            }
+          }
+        }
       },
       "ant": {
         "version": "1.10.10",
@@ -648,7 +683,17 @@
       },
       "jenv": {
         "version": "0.5.4",
-        "bottle": false
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/jenv/blobs/sha256:521a1ad6e28b90f1e37893d279950e35957a0580464d639ec74c398f8da6d466",
+              "sha256": "521a1ad6e28b90f1e37893d279950e35957a0580464d639ec74c398f8da6d466"
+            }
+          }
+        }
       },
       "gradle": {
         "version": "7.1",
@@ -1280,9 +1325,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.2.0-59-g196ec61",
+        "HOMEBREW_VERSION": "3.2.0-61-gaa14e48",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e863b0f42c1b98f5dd3814a42852948f1b35cb1a",
+        "Homebrew/homebrew-core": "d75513610337ca4f1d03c1c35d10538192f1e744",
         "CLT": "12.0.0.32.29",
         "Xcode": "12.4",
         "macOS": "10.15.7"
