@@ -6,6 +6,7 @@ antigen theme robbyrussell
 
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle lukechilds/zsh-nvm
+antigen bundle Bhupesh-V/ugit
 
 antigen apply
 
