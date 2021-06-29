@@ -89,4 +89,6 @@ cask "android-platform-tools"
 
 # fonts
 cask "font-fira-code"
+cask "font-fira-code-nerd-font"
 cask "font-jetbrains-mono"
+cask "font-jetbrains-mono-nerd-font"
