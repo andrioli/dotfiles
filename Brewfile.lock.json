@@ -5,16 +5,16 @@
         "revision": "939d2c79693d264b12eb973de72d37195c8fea0d"
       },
       "homebrew/cask": {
-        "revision": "2deca73eb642c09dc257c8034700d63bf6d21c53"
+        "revision": "1572962f5fae402445dcaa39676f9ae46eb1d7db"
       },
       "homebrew/cask-fonts": {
-        "revision": "0f558486bed812cf97153beb6a46db92d266465d"
+        "revision": "976bb3f89e806b9f0b50840bce867d572e6e9520"
       },
       "homebrew/cask-versions": {
-        "revision": "28b5988ec70f79d22022b6fe0442f7ae1efa4cd7"
+        "revision": "a908a33b549e3dc2c47548076f1e2a1d76537606"
       },
       "homebrew/core": {
-        "revision": "9f927bfcd1ab4d7dbbb9f58f6e519775fd1f0332"
+        "revision": "9d2063685565b06c5b19a285ffda3b094e222d1f"
       },
       "homebrew/services": {
         "revision": "96ce0d448a01238036046b43f68c213d5a81211c"
@@ -1325,7 +1325,7 @@
         }
       },
       "whatsapp": {
-        "version": "2.2123.7",
+        "version": "2.2123.8",
         "options": {
           "full_name": "whatsapp"
         }
@@ -1395,9 +1395,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.2.0-81-g3ffa2e6",
+        "HOMEBREW_VERSION": "3.2.0-87-g5a5db3a",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9f927bfcd1ab4d7dbbb9f58f6e519775fd1f0332",
+        "Homebrew/homebrew-core": "9d2063685565b06c5b19a285ffda3b094e222d1f",
         "CLT": "12.0.0.32.29",
         "Xcode": "12.4",
         "macOS": "10.15.7"
