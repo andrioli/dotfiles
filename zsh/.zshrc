@@ -17,6 +17,9 @@ fi
 source ~/.aliases
 source ~/.functions
 
+# Configure direnv
+eval "$(direnv hook zsh)"
+
 # Configure jEnv
 eval "$(jenv init -)"
 
