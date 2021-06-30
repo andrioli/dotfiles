@@ -20,6 +20,9 @@ fi
 source ~/.aliases
 source ~/.functions
 
+# Configure Starship
+eval "$(starship init zsh)"
+
 # Configure direnv
 eval "$(direnv hook zsh)"
 
