@@ -82,3 +82,11 @@ function setjdk() {
     export PATH=$JAVA_HOME/bin:$PATH
   fi
 }
+
+brew() {
+  if [[ $1 == "cat" ]]; then
+    command brew "$@" | bat --language=ruby -pp
+  else
+    command brew "$@"
+  fi
+}
