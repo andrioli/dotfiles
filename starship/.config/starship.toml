@@ -10,3 +10,13 @@ symbol = " "
 
 [package]
 disabled = true
+
+[java]
+symbol = "java:"
+style = "bold yellow"
+format = "[$symbol\\(](bold blue)[${version}]($style)[\\)](bold blue)"
+
+[nodejs]
+symbol = "node:"
+style = "bold yellow"
+format = "[$symbol\\(](bold blue)[${version}]($style)[\\)](bold blue)"
