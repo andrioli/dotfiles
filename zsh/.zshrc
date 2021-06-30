@@ -8,7 +8,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle lukechilds/zsh-nvm
 antigen bundle Bhupesh-V/ugit
 
-# Accordingly to to the docs MUST be the last bundle 
+# Accordingly to to the docs MUST be the last bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
