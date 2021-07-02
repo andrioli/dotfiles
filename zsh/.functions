@@ -56,6 +56,20 @@ function git-cleanup() {
   fi
 }
 
+function docker-summary() {
+  echo "${bold}Containers:${normal}"
+  docker ps -a
+
+  echo "${bold}Images:${normal}"
+  docker images
+
+  echo "${bold}Volumes:${normal}"
+  docker volume ls
+
+  echo "${bold}Networks:${normal}"
+  docker network ls
+}
+
 function docker-update() {
   for i in `docker-images`; do
     docker pull $i
