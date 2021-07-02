@@ -31,3 +31,5 @@ eval "$(jenv init -)"
 
 # Configure chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
+
+export LESSHISTFILE=~/.cache/lesshst
