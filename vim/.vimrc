@@ -1,5 +1,8 @@
 source ~/.vim/plugins.vim
 
+" Set .viminfo file directory
+set viminfo+=n~/.cache/viminfo
+
 syntax enable
 
 " Visual
