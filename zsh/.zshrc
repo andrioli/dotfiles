@@ -32,4 +32,5 @@ eval "$(jenv init -)"
 # Configure chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 
+export HISTFILE=~/.cache/zsh_history
 export LESSHISTFILE=~/.cache/lesshst
