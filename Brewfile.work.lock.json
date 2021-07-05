@@ -145,6 +145,12 @@
         "options": {
           "full_name": "dbeaver-community"
         }
+      },
+      "forticlient-vpn": {
+        "version": "7.0.0.22",
+        "options": {
+          "full_name": "forticlient-vpn"
+        }
       }
     }
   },

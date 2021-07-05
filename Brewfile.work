@@ -8,6 +8,7 @@ brew "circleci"
 brew "terraform"
 
 # casks
+cask "forticlient-vpn"
 cask "insomnia"
 cask "intellij-idea-ce"
 cask "dbeaver-community"
