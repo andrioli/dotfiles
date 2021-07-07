@@ -1,3 +1,5 @@
+export NVM_LAZY_LOAD=true # nvm adds to much lag, make it lazy
+
 source /usr/local/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
