@@ -1,4 +1,5 @@
 export NVM_LAZY_LOAD=true # nvm adds to much lag, make it lazy
+export NVM_AUTO_USE=true # make nvm automatically load or install the required node version in .nvmrc
 
 source /usr/local/share/antigen/antigen.zsh
 
