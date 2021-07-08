@@ -21,6 +21,9 @@
       },
       "adoptopenjdk/openjdk": {
         "revision": "3e6ed3cb423ac9ce63aeb1e01d0371cd588db987"
+      },
+      "pharo-project/pharo": {
+        "revision": "9804b2e4edfce54308fbf4d19ff7c2599e153918"
       }
     },
     "brew": {
@@ -1673,6 +1676,12 @@
         "version": "2.1.0",
         "options": {
           "full_name": "font-jetbrains-mono-nerd-font"
+        }
+      },
+      "pharo-launcher": {
+        "version": "2.2",
+        "options": {
+          "full_name": "pharo-launcher"
         }
       }
     }
