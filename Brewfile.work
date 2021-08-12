@@ -5,6 +5,7 @@ tap "homebrew/core"
 # utilities
 brew "awscli"
 brew "circleci"
+brew "shyaml"
 brew "terraform"
 
 # casks
