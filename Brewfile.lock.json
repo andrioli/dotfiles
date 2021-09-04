@@ -1723,6 +1723,12 @@
         "options": {
           "full_name": "pharo-launcher"
         }
+      },
+      "telegram": {
+        "version": "8.0,220932",
+        "options": {
+          "full_name": "telegram"
+        }
       }
     }
   },
