@@ -1729,6 +1729,12 @@
         "options": {
           "full_name": "telegram"
         }
+      },
+      "ngrok": {
+        "version": "latest",
+        "options": {
+          "full_name": "ngrok"
+        }
       }
     }
   },
