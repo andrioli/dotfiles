@@ -1587,7 +1587,7 @@
         }
       },
       "google-backup-and-sync": {
-        "version": "latest",
+        "version": "3.54.3529.0458",
         "options": {
           "full_name": "google-backup-and-sync"
         }
@@ -1749,9 +1749,9 @@
         "macOS": "10.15.7"
       },
       "mojave": {
-        "HOMEBREW_VERSION": "3.2.1-64-g805f0ba",
+        "HOMEBREW_VERSION": "3.2.15-49-g1eaf8db",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "0bb8509274c957e61f0a8df1e8a0798239791232",
+        "Homebrew/homebrew-core": "c42e479e59aef0989686aed97ff71692cedfd1c7",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"
