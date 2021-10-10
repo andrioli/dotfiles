@@ -1586,12 +1586,6 @@
           "full_name": "docker"
         }
       },
-      "google-backup-and-sync": {
-        "version": "3.54.3529.0458",
-        "options": {
-          "full_name": "google-backup-and-sync"
-        }
-      },
       "google-chrome": {
         "version": "94.0.4606.81",
         "options": {
@@ -1734,6 +1728,12 @@
         "version": "latest",
         "options": {
           "full_name": "ngrok"
+        }
+      },
+      "google-drive": {
+        "version": "51.0.14",
+        "options": {
+          "full_name": "google-drive"
         }
       }
     }
