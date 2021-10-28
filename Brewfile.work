@@ -6,6 +6,7 @@ tap "homebrew/core"
 brew "awscli"
 brew "circleci"
 brew "grpcurl"
+brew "jmeter"
 brew "shyaml"
 brew "terraform"
 
