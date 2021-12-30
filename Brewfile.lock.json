@@ -5,16 +5,16 @@
         "revision": "060b85b685e8e4fe9076197f3147583f49581348"
       },
       "homebrew/cask": {
-        "revision": "d7ab4145f0d57de33339779f6e05b98fd460c8cf"
+        "revision": "65683079a4eeb83cafaff0b86b9416e83a0efe68"
       },
       "homebrew/cask-fonts": {
         "revision": "fe8fa7d17f920b699881de3d90c6a135600ec5af"
       },
       "homebrew/cask-versions": {
-        "revision": "fe707366674fa613d94cbbda030810a691d6a983"
+        "revision": "62d16727202cd49c91a6cb7904a6edf90763403d"
       },
       "homebrew/core": {
-        "revision": "57714e17464a5dbc440ee9602de77f73922d7726"
+        "revision": "8ba65bb519fdc25896d5814b7cd81759cfe0bf21"
       },
       "homebrew/services": {
         "revision": "b8628a6bc2affd17b5624013de1b464003d3c3d5"
@@ -1978,7 +1978,7 @@
         }
       },
       "telegram": {
-        "version": "8.3,223729",
+        "version": "8.4.1,225774",
         "options": {
           "full_name": "telegram"
         }
@@ -2000,9 +2000,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.3.9-80-g26694fd",
+        "HOMEBREW_VERSION": "3.3.9-83-g0b14b6d",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "57714e17464a5dbc440ee9602de77f73922d7726",
+        "Homebrew/homebrew-core": "8ba65bb519fdc25896d5814b7cd81759cfe0bf21",
         "CLT": "12.0.0.32.29",
         "Xcode": "12.4",
         "macOS": "10.15.7"
