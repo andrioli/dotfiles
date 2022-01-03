@@ -20,6 +20,13 @@ if [ -f ~/.profile ]; then
   source ~/.profile
 fi
 
+# Simple bookmarks
+# https://threkk.medium.com/how-to-use-bookmarks-in-bash-zsh-6b8074e40774
+if [ -d ~/.bookmarks ]; then
+  export CDPATH=".:$HOME/.bookmarks:/"
+  alias goto="cd -P"
+fi
+
 source ~/.aliases
 source ~/.functions
 
