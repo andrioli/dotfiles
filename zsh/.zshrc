@@ -11,6 +11,9 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle lukechilds/zsh-nvm
 antigen bundle Bhupesh-V/ugit
 
+# Added alias `tolower` and `toupper`
+antigen bundle rtuin/zsh-case
+
 # Accordingly to to the docs MUST be the last bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
 
