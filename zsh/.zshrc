@@ -14,10 +14,16 @@ antigen bundle Bhupesh-V/ugit
 # Added alias `tolower` and `toupper`
 antigen bundle rtuin/zsh-case
 
+# Plugin for fast swap between upper and lower case in your command line
+antigen bundle mtxr/zsh-change-case
+
 # Accordingly to to the docs MUST be the last bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
+
+bindkey '^K^U' _mtxr-to-upper # Ctrl+K + Ctrl+U
+bindkey '^K^L' _mtxr-to-lower # Ctrl+K + Ctrl+L
 
 if [ -f ~/.profile ]; then
   source ~/.profile
