@@ -1,3 +1,5 @@
+isArm = Hardware::CPU.arm?
+
 # taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -59,8 +61,12 @@ brew "ant"
 brew "gradle"
 brew "jenv"
 cask "java6"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
-cask "adoptopenjdk/openjdk/adoptopenjdk11"
+
+unless isArm
+  cask "adoptopenjdk/openjdk/adoptopenjdk8"
+  cask "adoptopenjdk/openjdk/adoptopenjdk11"
+end
+
 cask "eclipse-java"
 cask "jd-gui"
 
@@ -75,16 +81,20 @@ cask "google-chrome"
 cask "google-drive"
 cask "iterm2"
 cask "keepassx"
-cask "keybase"
+cask "keybase" unless isArm
 cask "ngrok"
 cask "pharo-launcher"
 cask "rectangle"
 cask "spotify"
 cask "telegram"
 cask "the-unarchiver"
-cask "vagrant"
-cask "virtualbox"
-cask "virtualbox-extension-pack"
+
+unless isArm
+  cask "vagrant"
+  cask "virtualbox"
+  cask "virtualbox-extension-pack"
+end
+
 cask "visual-studio-code"
 cask "whatsapp"
 
