@@ -85,7 +85,7 @@ cask "keybase" unless isArm
 cask "ngrok"
 cask "pharo-launcher"
 cask "rectangle"
-cask "spotify"
+cask "spotify" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file
 cask "telegram"
 cask "the-unarchiver"
 
