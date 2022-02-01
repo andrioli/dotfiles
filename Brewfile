@@ -20,7 +20,6 @@ brew "direnv"
 brew "exa"
 brew "fd"
 brew "fzf"
-brew "gdu"
 brew "git-delta"
 brew "git-interactive-rebase-tool"
 brew "gitui"
@@ -106,3 +105,6 @@ cask "font-jetbrains-mono-nerd-font"
 # deprecated
 # brew "q"
 # brew "truncate"
+
+# conflicts
+# brew "gdu" # conflicts with transitive brew coreutils

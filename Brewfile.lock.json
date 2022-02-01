@@ -1297,45 +1297,6 @@
           }
         }
       },
-      "gdu": {
-        "version": "5.13.0",
-        "bottle": {
-          "rebuild": 0,
-          "root_url": "https://ghcr.io/v2/homebrew/core",
-          "files": {
-            "arm64_monterey": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/gdu/blobs/sha256:aee1297e66f999d18647dfe143645ebbdb1fef05cada6fbc6a2f96394289af27",
-              "sha256": "aee1297e66f999d18647dfe143645ebbdb1fef05cada6fbc6a2f96394289af27"
-            },
-            "arm64_big_sur": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/gdu/blobs/sha256:0d00ce129ad97a6da5ede575f3a59de1a90305b8aa2b7ec72f6685a68e0e30e8",
-              "sha256": "0d00ce129ad97a6da5ede575f3a59de1a90305b8aa2b7ec72f6685a68e0e30e8"
-            },
-            "monterey": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/gdu/blobs/sha256:f76de92e24299d44ae11090c48e8f847d54901ddbc295fce0b36636bbadf9ebe",
-              "sha256": "f76de92e24299d44ae11090c48e8f847d54901ddbc295fce0b36636bbadf9ebe"
-            },
-            "big_sur": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/gdu/blobs/sha256:4064c31b757171eda7db19d40cefe2e7e0add14f95918a7b5895daca99e866d0",
-              "sha256": "4064c31b757171eda7db19d40cefe2e7e0add14f95918a7b5895daca99e866d0"
-            },
-            "catalina": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/gdu/blobs/sha256:cc7061f2c0017148bf9e7714c66555a98224e6f7e2f898c98436a4e13b61c509",
-              "sha256": "cc7061f2c0017148bf9e7714c66555a98224e6f7e2f898c98436a4e13b61c509"
-            },
-            "x86_64_linux": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/gdu/blobs/sha256:18f4d3bbaf20f1458c2ae7e32901fa6015dc441a80849271173ea9f06a73d260",
-              "sha256": "18f4d3bbaf20f1458c2ae7e32901fa6015dc441a80849271173ea9f06a73d260"
-            }
-          }
-        }
-      },
       "stgit": {
         "version": "1.5",
         "bottle": {
