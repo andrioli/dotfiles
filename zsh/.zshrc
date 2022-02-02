@@ -1,7 +1,7 @@
 export NVM_LAZY_LOAD=true # nvm adds to much lag, make it lazy
 export NVM_AUTO_USE=true # make nvm automatically load or install the required node version in .nvmrc
 
-source /usr/local/share/antigen/antigen.zsh
+source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
@@ -49,7 +49,7 @@ eval "$(direnv hook zsh)"
 eval "$(jenv init -)"
 
 # Configure chruby
-source /usr/local/opt/chruby/share/chruby/chruby.sh
+source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
 
 export HISTFILE=~/.cache/zsh_history
 export LESSHISTFILE=~/.cache/lesshst
