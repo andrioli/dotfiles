@@ -1,0 +1,5 @@
+# taps
+tap "homebrew/cask"
+
+# casks
+cask "spotify"
