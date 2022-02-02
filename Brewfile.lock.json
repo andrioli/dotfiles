@@ -5,16 +5,16 @@
         "revision": "4b703e446be1d848521b0bdf3e85f36bb3aae1f9"
       },
       "homebrew/cask": {
-        "revision": "d35a7bebd2657a46ae6f41d162c6976d482c575f"
+        "revision": "73fa651607bf2a3815de9faa836123c35eb17cae"
       },
       "homebrew/cask-fonts": {
         "revision": "516f245097f4eff13ccd584e4488c02ac381545d"
       },
       "homebrew/cask-versions": {
-        "revision": "142287044e89c40a8e499483c2b085d1719ace13"
+        "revision": "7450c5e9c443c4673771a7d52282d270eae54b1b"
       },
       "homebrew/core": {
-        "revision": "c91b7bc3f6fe6f110366e55101bb1ed4e6723f63"
+        "revision": "79976290e4df33179db615025402e84ed4e58a35"
       },
       "homebrew/services": {
         "revision": "59b361bb330e48ae62f6e8175002cfa8dfeeecb8"
@@ -1753,7 +1753,7 @@
         }
       },
       "google-chrome": {
-        "version": "97.0.4692.99",
+        "version": "98.0.4758.80",
         "options": {
           "full_name": "google-chrome"
         }
@@ -1771,7 +1771,7 @@
         }
       },
       "keybase": {
-        "version": "5.9.0,20220121192730,95a3939b3a",
+        "version": "5.9.2,20220131221715,a25f15e42b",
         "options": {
           "full_name": "keybase"
         }
@@ -1913,9 +1913,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.3.13-35-gd36b61d",
+        "HOMEBREW_VERSION": "3.3.13-37-g9a7658d",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c91b7bc3f6fe6f110366e55101bb1ed4e6723f63",
+        "Homebrew/homebrew-core": "79976290e4df33179db615025402e84ed4e58a35",
         "CLT": "12.0.0.32.29",
         "Xcode": "12.4",
         "macOS": "10.15.7"
