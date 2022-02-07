@@ -1,22 +1,8 @@
 # taps
 tap "homebrew/cask"
-tap "homebrew/core"
-
-# utilities
-brew "awscli"
-brew "circleci"
-brew "grpcurl"
-brew "jmeter"
-brew "shyaml"
-brew "terraform"
 
 # casks
 cask "dbeaver-community"
-cask "forticlient-vpn"
 cask "insomnia"
 cask "intellij-idea-ce"
-cask "phpstorm"
-cask "pritunl"
-cask "sequel-ace"
-cask "sequel-pro"
 cask "zoom"
