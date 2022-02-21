@@ -1924,11 +1924,11 @@
         "macOS": "10.14.6"
       },
       "big_sur": {
-        "HOMEBREW_VERSION": "3.3.13-37-g9a7658d",
+        "HOMEBREW_VERSION": "3.3.15-80-g2dc375a",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "79976290e4df33179db615025402e84ed4e58a35",
+        "Homebrew/homebrew-core": "6d456b141400e1fad3cb30b8a62b1ca6fe05baa5",
         "CLT": "13.2.0.0.1.1638488800",
-        "Xcode": "13.1",
+        "Xcode": "13.2.1",
         "macOS": "11.6"
       }
     }
