@@ -35,14 +35,20 @@ brew "imagemagick"
 brew "libfaketime"
 brew "lsd"
 brew "jq"
-brew "neovim"
+if MacOS.version > :mojave
+  # neovim > tree-sitter > emscripten (build) > yuicompressor > openjdk
+  brew "neovim"
+end
 brew "pass"
 brew "procs"
 brew "ripgrep"
 brew "ruby-install"
 brew "scrcpy"
 brew "starship"
-brew "stgit"
+if MacOS.version > :mojave
+  # not building correctly with Mojave
+  brew "stgit"
+end
 brew "stow"
 brew "textql"
 brew "tig"
@@ -55,10 +61,12 @@ brew "gnupg"
 brew "pinentry-mac"
 
 # Java
-brew "openjdk"
-brew "maven"
-brew "ant"
-brew "gradle"
+if MacOS.version > :mojave
+  brew "openjdk"
+  brew "maven"
+  brew "ant"
+  brew "gradle"
+end
 brew "jenv"
 cask "java6"
 
