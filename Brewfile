@@ -25,14 +25,19 @@ brew "fzf"
 brew "git-delta"
 brew "git-interactive-rebase-tool"
 brew "gitui"
-brew "gnuplot"
+if MacOS.version > :mojave
+  # gnuplot > qt@5
+  brew "gnuplot"
+end
 brew "gron"
 brew "hexyl"
 brew "hstr"
 brew "htop"
 brew "icdiff"
 brew "imagemagick"
-brew "libfaketime"
+if MacOS.version > :mojave
+  brew "libfaketime"
+end
 brew "lsd"
 brew "jq"
 if MacOS.version > :mojave
