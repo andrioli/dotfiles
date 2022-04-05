@@ -22,6 +22,8 @@ brew "direnv"
 brew "exa"
 brew "fd"
 brew "fzf"
+# macOS has Git, but I want the latest version
+brew "git"
 brew "git-delta"
 brew "git-interactive-rebase-tool"
 brew "gitui"
