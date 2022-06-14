@@ -27,35 +27,24 @@ brew "git"
 brew "git-delta"
 brew "git-interactive-rebase-tool"
 brew "gitui"
-if MacOS.version > :mojave
-  # gnuplot > qt@5
-  brew "gnuplot"
-end
+brew "gnuplot"
 brew "gron"
 brew "hexyl"
 brew "hstr"
 brew "htop"
 brew "icdiff"
 brew "imagemagick"
-if MacOS.version > :mojave
-  brew "libfaketime"
-end
+brew "libfaketime"
 brew "lsd"
 brew "jq"
-if MacOS.version > :mojave
-  # neovim > tree-sitter > emscripten (build) > yuicompressor > openjdk
-  brew "neovim"
-end
+brew "neovim"
 brew "pass"
 brew "procs"
 brew "ripgrep"
 brew "ruby-install"
 brew "scrcpy"
 brew "starship"
-if MacOS.version > :mojave
-  # not building correctly with Mojave
-  brew "stgit"
-end
+brew "stgit"
 brew "stow"
 brew "textql"
 brew "tig"
@@ -68,12 +57,10 @@ brew "gnupg"
 brew "pinentry-mac"
 
 # Java
-if MacOS.version > :mojave
-  brew "openjdk"
-  brew "maven"
-  brew "ant"
-  brew "gradle"
-end
+brew "openjdk"
+brew "maven"
+brew "ant"
+brew "gradle"
 brew "jenv"
 cask "java6"
 
@@ -113,10 +100,6 @@ end
 cask "visual-studio-code"
 cask "whatsapp"
 
-if MacOS.version == :mojave
-  cask "horndis"
-end
-
 # android
 cask "android-file-transfer"
 cask "android-platform-tools"
@@ -133,3 +116,6 @@ cask "font-jetbrains-mono-nerd-font"
 
 # conflicts
 # brew "gdu" # conflicts with transitive brew coreutils
+
+# not working with MacOS.version >= :catalina
+# cask "horndis"
