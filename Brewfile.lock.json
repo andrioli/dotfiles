@@ -1940,9 +1940,9 @@
         "macOS": "10.15.7"
       },
       "mojave": {
-        "HOMEBREW_VERSION": "3.3.15-80-g2dc375a",
+        "HOMEBREW_VERSION": "3.5.2-18-gb49949d",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "6d456b141400e1fad3cb30b8a62b1ca6fe05baa5",
+        "Homebrew/homebrew-core": "49132f7004a77370960db8ae9c38e90a88473630",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"
