@@ -1935,7 +1935,7 @@
         "HOMEBREW_VERSION": "3.5.2-20-g22f4c39",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "49132f7004a77370960db8ae9c38e90a88473630",
-        "CLT": "12.0.0.32.29",
+        "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"
       },
