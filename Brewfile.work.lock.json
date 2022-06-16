@@ -29,6 +29,12 @@
         "options": {
           "full_name": "dbeaver-community"
         }
+      },
+      "openvpn-connect": {
+        "version": "3.3.6,4368",
+        "options": {
+          "full_name": "openvpn-connect"
+        }
       }
     }
   },
