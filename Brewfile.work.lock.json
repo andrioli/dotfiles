@@ -2,30 +2,30 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "e6737381630a8a17a6fd8eeb64c4ad6e353cc9f8"
+        "revision": "fd79500895ad54bd4f510a9c18a270d840e06b66"
       }
     },
     "cask": {
       "insomnia": {
-        "version": "2021.7.2",
+        "version": "2022.4.1",
         "options": {
           "full_name": "insomnia"
         }
       },
       "intellij-idea-ce": {
-        "version": "2021.3.2,213.6777.52",
+        "version": "2022.1.2,221.5787.30",
         "options": {
           "full_name": "intellij-idea-ce"
         }
       },
       "zoom": {
-        "version": "5.9.3.4239",
+        "version": "5.10.7.7748",
         "options": {
           "full_name": "zoom"
         }
       },
       "dbeaver-community": {
-        "version": "21.3.3",
+        "version": "22.1.0",
         "options": {
           "full_name": "dbeaver-community"
         }
@@ -35,12 +35,12 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.3.14-2-gc6effe1",
+        "HOMEBREW_VERSION": "3.5.2-20-g22f4c39",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "849974b88efb2b2b3b7e9546b905890f7aeac8d1",
+        "Homebrew/homebrew-core": "c8a28a4b565c9a70efb31146e89e9c9be501c5df",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
-        "macOS": "11.6"
+        "macOS": "11.6.7"
       }
     }
   }
