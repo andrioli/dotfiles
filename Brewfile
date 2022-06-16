@@ -84,7 +84,7 @@ cask "google-drive"
 cask "iterm2"
 cask "keepassx"
 cask "keybase" unless isArm
-cask "ngrok"
+cask "ngrok" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file
 cask "pharo-launcher"
 cask "rectangle"
 cask "spotify" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file

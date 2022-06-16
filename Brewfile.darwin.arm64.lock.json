@@ -11,6 +11,12 @@
         "options": {
           "full_name": "spotify"
         }
+      },
+      "ngrok": {
+        "version": "3.0.4,iTxqEHJZruy,a",
+        "options": {
+          "full_name": "ngrok"
+        }
       }
     }
   },
