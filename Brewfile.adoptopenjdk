@@ -1,0 +1,6 @@
+tap "adoptopenjdk/openjdk"
+
+unless Hardware::CPU.arm?
+  cask "adoptopenjdk/openjdk/adoptopenjdk8"
+  cask "adoptopenjdk/openjdk/adoptopenjdk11"
+end

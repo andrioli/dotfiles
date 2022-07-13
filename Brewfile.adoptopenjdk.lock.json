@@ -1,0 +1,35 @@
+{
+  "entries": {
+    "tap": {
+      "adoptopenjdk/openjdk": {
+        "revision": "f6e8c971c98f5ba48aedf2a5d218ebc914ee2304"
+      }
+    },
+    "cask": {
+      "adoptopenjdk8": {
+        "version": "8,292,b10",
+        "options": {
+          "full_name": "adoptopenjdk/openjdk/adoptopenjdk8"
+        }
+      },
+      "adoptopenjdk11": {
+        "version": "11.0.11,9",
+        "options": {
+          "full_name": "adoptopenjdk/openjdk/adoptopenjdk11"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "3.5.4-63-g3689ecd",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "6fa03735fc175d8ae4b497f7768bcd28c1fba9eb",
+        "CLT": "12.4.0.0.1.1610135815",
+        "Xcode": "12.4",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}

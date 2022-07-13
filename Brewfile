@@ -7,7 +7,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "adoptopenjdk/openjdk"
 tap "pharo-project/pharo"
 
 # utilities
@@ -68,11 +67,6 @@ cask "java6"
 cask "temurin8"
 cask "temurin11"
 cask "temurin17"
-
-unless isArm
-  cask "adoptopenjdk/openjdk/adoptopenjdk8"
-  cask "adoptopenjdk/openjdk/adoptopenjdk11"
-end
 
 cask "eclipse-java"
 cask "jd-gui"

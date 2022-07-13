@@ -19,9 +19,6 @@
       "homebrew/services": {
         "revision": "8af2e6a880c89b7c0586bef3912db2eb4587d52a"
       },
-      "adoptopenjdk/openjdk": {
-        "revision": "f6e8c971c98f5ba48aedf2a5d218ebc914ee2304"
-      },
       "pharo-project/pharo": {
         "revision": "9804b2e4edfce54308fbf4d19ff7c2599e153918"
       }
@@ -1717,18 +1714,6 @@
         "version": "1.6.0_65-b14-468,2019,041-88384-20191011-3d8da658-dca4-4a5b-b67c-26e686876403",
         "options": {
           "full_name": "java6"
-        }
-      },
-      "adoptopenjdk8": {
-        "version": "8,292,b10",
-        "options": {
-          "full_name": "adoptopenjdk/openjdk/adoptopenjdk8"
-        }
-      },
-      "adoptopenjdk11": {
-        "version": "11.0.11,9",
-        "options": {
-          "full_name": "adoptopenjdk/openjdk/adoptopenjdk11"
         }
       },
       "eclipse-java": {
