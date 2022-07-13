@@ -50,6 +50,7 @@ brew "tig"
 brew "tree"
 brew "watch"
 brew "wget"
+brew "youtube-dl"
 
 # GnuPG and GPGTools/pinentry-mac
 brew "gnupg"
