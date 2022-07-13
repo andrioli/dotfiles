@@ -2011,12 +2011,12 @@
         "macOS": "10.15.7"
       },
       "big_sur": {
-        "HOMEBREW_VERSION": "3.5.2-20-g22f4c39",
+        "HOMEBREW_VERSION": "3.5.4-63-g3689ecd",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "49d84ebfb3f3903243c4d67c8caf3c3ea8253bff",
+        "Homebrew/homebrew-core": "0d18b68a156b08ef040e6ae3c4669b0410f9e649",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
-        "macOS": "11.6"
+        "macOS": "11.6.7"
       }
     }
   }
