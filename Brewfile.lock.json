@@ -1916,6 +1916,24 @@
         "options": {
           "full_name": "rectangle"
         }
+      },
+      "temurin8": {
+        "version": "8,332,09",
+        "options": {
+          "full_name": "temurin8"
+        }
+      },
+      "temurin11": {
+        "version": "11.0.15,10",
+        "options": {
+          "full_name": "temurin11"
+        }
+      },
+      "temurin17": {
+        "version": "17.0.3,7",
+        "options": {
+          "full_name": "temurin17"
+        }
       }
     }
   },

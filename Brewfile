@@ -64,6 +64,11 @@ brew "gradle"
 brew "jenv"
 cask "java6"
 
+# Eclipse Temurin JDK (LTS Only)
+cask "temurin8"
+cask "temurin11"
+cask "temurin17"
+
 unless isArm
   cask "adoptopenjdk/openjdk/adoptopenjdk8"
   cask "adoptopenjdk/openjdk/adoptopenjdk11"
