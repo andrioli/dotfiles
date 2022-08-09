@@ -19,6 +19,9 @@
       "homebrew/services": {
         "revision": "b167b4279698e0bbf1a00a81bd9c209cbf9bab69"
       },
+      "homebrew/cask-drivers": {
+        "revision": "8c5ec89cb668b3d019c20efdf7a3fa994f921725"
+      },
       "pharo-project/pharo": {
         "revision": "9804b2e4edfce54308fbf4d19ff7c2599e153918"
       }
@@ -1996,6 +1999,12 @@
         "version": "17.0.4,8",
         "options": {
           "full_name": "temurin17"
+        }
+      },
+      "displaylink": {
+        "version": "1.5,2021-09",
+        "options": {
+          "full_name": "displaylink"
         }
       }
     }
