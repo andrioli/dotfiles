@@ -2015,7 +2015,7 @@
         "HOMEBREW_VERSION": "3.5.9-94-gf1e5120",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "c1a3ee43487cf797449f267d1893cdcce6335872",
-        "CLT": "12.0.0.32.29",
+        "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"
       },
