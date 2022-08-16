@@ -93,6 +93,7 @@ cask "rectangle"
 cask "spotify" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file
 cask "telegram"
 cask "the-unarchiver"
+cask "vlc"
 
 unless isArm
   cask "vagrant"

@@ -2006,6 +2006,12 @@
         "options": {
           "full_name": "displaylink"
         }
+      },
+      "vlc": {
+        "version": "3.0.17.3",
+        "options": {
+          "full_name": "vlc"
+        }
       }
     }
   },
