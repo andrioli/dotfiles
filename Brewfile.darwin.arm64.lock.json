@@ -29,12 +29,12 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.5.10-25-g2415339",
+        "HOMEBREW_VERSION": "3.5.10-32-g4de6806",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "ad668bc1eef484ed25c6e4f751c32adc14be5276",
+        "Homebrew/homebrew-core": "7a1a2929c1011395043dc495ce6dc19973a3d82a",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
-        "macOS": "11.6.7"
+        "macOS": "11.6.8"
       }
     }
   }
