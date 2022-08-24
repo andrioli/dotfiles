@@ -2,20 +2,26 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "763a50c0b5eea1131064f765a1d77d395956e764"
+        "revision": "a410f27555f1f22a93738aee2cb12356d0d5a092"
       }
     },
     "cask": {
       "spotify": {
-        "version": "1.1.87.612,f8d110e2,18",
+        "version": "1.1.91.824,07f1e963,9",
         "options": {
           "full_name": "spotify"
         }
       },
       "ngrok": {
-        "version": "3.0.4,iTxqEHJZruy,a",
+        "version": "3.0.7,3qk13uQpAwh,a",
         "options": {
           "full_name": "ngrok"
+        }
+      },
+      "displaylink": {
+        "version": "1.7.1,2022-07",
+        "options": {
+          "full_name": "displaylink"
         }
       }
     }
@@ -23,12 +29,12 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.5.2-20-g22f4c39",
+        "HOMEBREW_VERSION": "3.5.10-25-g2415339",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "49d84ebfb3f3903243c4d67c8caf3c3ea8253bff",
+        "Homebrew/homebrew-core": "ad668bc1eef484ed25c6e4f751c32adc14be5276",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
-        "macOS": "11.6"
+        "macOS": "11.6.7"
       }
     }
   }

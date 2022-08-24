@@ -2,5 +2,6 @@
 tap "homebrew/cask"
 
 # casks
+cask "displaylink"
 cask "ngrok"
 cask "spotify"

@@ -80,7 +80,7 @@ cask "authy"
 cask "caffeine"
 cask "deezer"
 cask "deskreen"
-cask "displaylink"
+cask "displaylink" unless isArm # This cask install different versions depending of the macOS version. It will mess my lock file
 cask "docker"
 cask "google-chrome"
 cask "google-drive"
