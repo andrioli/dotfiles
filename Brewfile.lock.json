@@ -2018,6 +2018,12 @@
         "options": {
           "full_name": "monitorcontrol"
         }
+      },
+      "mpv": {
+        "version": "0.34.1",
+        "options": {
+          "full_name": "mpv"
+        }
       }
     }
   },
