@@ -14,13 +14,13 @@
         "revision": "1bc91e35a1ab906869957f37d6c92c5bc948b702"
       },
       "homebrew/core": {
-        "revision": "a6ca0deb4375420a7826a540ba804fbb0161f2f1"
+        "revision": "8c764825c6668815b12df4058bccd6c15495e900"
       },
       "homebrew/services": {
         "revision": "a8f4e6d6d30386a5fbb70ba271886dcc1f3ca0f7"
       },
       "homebrew/cask-drivers": {
-        "revision": "fc4f783b81a10358c766dffe354245be68f173c1"
+        "revision": "4d0087dc8a6c44ec3b91e3a54e3cd80932b0324c"
       },
       "pharo-project/pharo": {
         "revision": "9804b2e4edfce54308fbf4d19ff7c2599e153918"
@@ -2018,9 +2018,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.5.10-45-gfb2b21b",
+        "HOMEBREW_VERSION": "3.5.10-49-gb2ddb34",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a6ca0deb4375420a7826a540ba804fbb0161f2f1",
+        "Homebrew/homebrew-core": "8c764825c6668815b12df4058bccd6c15495e900",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"

@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "adoptopenjdk/openjdk": {
-        "revision": "f6e8c971c98f5ba48aedf2a5d218ebc914ee2304"
+        "revision": "27915e4ab3856595a8b46d1fd3b6c379c1f02210"
       }
     },
     "cask": {
@@ -23,9 +23,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.5.10-45-gfb2b21b",
+        "HOMEBREW_VERSION": "3.5.10-49-gb2ddb34",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "a6ca0deb4375420a7826a540ba804fbb0161f2f1",
+        "Homebrew/homebrew-core": "8c764825c6668815b12df4058bccd6c15495e900",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"
