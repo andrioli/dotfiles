@@ -2012,6 +2012,12 @@
         "options": {
           "full_name": "vlc"
         }
+      },
+      "monitorcontrol": {
+        "version": "4.1.0",
+        "options": {
+          "full_name": "monitorcontrol"
+        }
       }
     }
   },
