@@ -2,12 +2,12 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "449ab2f496c702b9e5052589bdd2e2bb47e2c957"
+        "revision": "63ae652861e06f4b1a7358538ad54bd60c6bb93c"
       }
     },
     "cask": {
       "spotify": {
-        "version": "1.1.91.824,07f1e963,9",
+        "version": "1.1.92.647,a4397eb7,7",
         "options": {
           "full_name": "spotify"
         }
@@ -29,9 +29,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.5.10-49-gb2ddb34",
+        "HOMEBREW_VERSION": "3.5.10-74-gd5b9d0e",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "c78aa5d8dd8c6b045c2e6677cbe2749a293006be",
+        "Homebrew/homebrew-core": "12a796617c3233fcbf2daa2aba483eec1304eb86",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "11.6.8"
