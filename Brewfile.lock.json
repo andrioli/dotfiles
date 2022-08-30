@@ -2063,6 +2063,12 @@
         "options": {
           "full_name": "mpv"
         }
+      },
+      "sparrow": {
+        "version": "1.6.6",
+        "options": {
+          "full_name": "sparrow"
+        }
       }
     }
   },

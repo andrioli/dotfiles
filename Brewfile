@@ -93,6 +93,7 @@ cask "mpv"
 cask "ngrok" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file
 cask "pharo-launcher"
 cask "rectangle"
+cask "sparrow"
 cask "spotify" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file
 cask "telegram"
 cask "the-unarchiver"
