@@ -1,5 +1,4 @@
-# taps
-tap "homebrew/cask"
+instance_eval(File.read("Brewfile.darwin.arm64"))
 
 # casks
 cask "dbeaver-community"
