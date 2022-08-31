@@ -1,0 +1,13 @@
+#!/bin/bash
+
+os=`uname -s | perl -ne 'print lc'`
+arch=`uname -m | perl -ne 'print lc'`
+brewfile=${1-"Brewfile.$os.$arch"}
+
+if [ -f $brewfile ]; then
+    echo "Found $brewfile: Installing..."
+    brew bundle --file $brewfile
+    exit 0
+fi
+
+exit 1
