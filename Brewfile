@@ -88,7 +88,7 @@ cask "authy"
 cask "caffeine"
 cask "deezer"
 cask "deskreen"
-cask "displaylink" unless isArm # This cask install different versions depending of the macOS version. It will mess my lock file
+cask "displaylink"
 cask "docker"
 cask "google-chrome"
 cask "google-drive"
@@ -97,11 +97,11 @@ cask "keepassx"
 cask "keybase" unless isArm
 cask "monitorcontrol"
 cask "mpv"
-cask "ngrok" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file
+cask "ngrok"
 cask "pharo-launcher"
 cask "rectangle"
 cask "sparrow"
-cask "spotify" unless isArm # This cask install different versions depending of the architecture. It will mess my lock file
+cask "spotify"
 cask "telegram"
 cask "the-unarchiver"
 cask "vlc"
