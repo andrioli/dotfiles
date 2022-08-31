@@ -1,4 +1,4 @@
-instance_eval(File.read("Brewfile.darwin.arm64"))
+instance_eval(File.read("Brewfile"))
 
 # casks
 cask "dbeaver-community"
