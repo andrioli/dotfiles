@@ -53,3 +53,4 @@ source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
 
 export HISTFILE=~/.cache/zsh_history
 export LESSHISTFILE=~/.cache/lesshst
+export PATH=$PATH:~/.bin
