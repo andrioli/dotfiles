@@ -22,6 +22,7 @@ brew "diff-so-fancy"
 brew "direnv"
 brew "exa"
 brew "fd"
+brew "fdupes"
 brew "fzf"
 brew "gh"
 # macOS has Git, but I want the latest version
