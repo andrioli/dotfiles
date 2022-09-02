@@ -100,6 +100,9 @@ function setjdk() {
 brew() {
   if [[ $1 == "cat" ]]; then
     command brew "$@" | bat --language=ruby -pp
+  elif [[ $1 == notin  ]]; then
+    diff <(cat $2 | jq '.entries.brew | keys[]' | tr -d '"' | sort) <(brew leaves | sort) | grep ">" | cut -d " " -f2
+    diff <(cat $2 | jq '.entries.cask | keys[]' | tr -d '"' | sort) <(brew list --cask | sort) | grep ">" | cut -d " " -f2
   else
     command brew "$@"
   fi
