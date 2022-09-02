@@ -1926,12 +1926,6 @@
           "full_name": "keepassx"
         }
       },
-      "keybase": {
-        "version": "6.0.1,20220609162338,0fc9feea3d",
-        "options": {
-          "full_name": "keybase"
-        }
-      },
       "spotify": {
         "version": "1.1.93.896,3ae3b4f3,10",
         "options": {
@@ -1942,24 +1936,6 @@
         "version": "4.3.5,139,1652457131",
         "options": {
           "full_name": "the-unarchiver"
-        }
-      },
-      "vagrant": {
-        "version": "2.3.0",
-        "options": {
-          "full_name": "vagrant"
-        }
-      },
-      "virtualbox": {
-        "version": "6.1.36,152435",
-        "options": {
-          "full_name": "virtualbox"
-        }
-      },
-      "virtualbox-extension-pack": {
-        "version": "6.1.36",
-        "options": {
-          "full_name": "virtualbox-extension-pack"
         }
       },
       "visual-studio-code": {
@@ -2104,18 +2080,6 @@
         "version": "1.6.6",
         "options": {
           "full_name": "sparrow"
-        }
-      },
-      "adoptopenjdk8": {
-        "version": "8,292,b10",
-        "options": {
-          "full_name": "adoptopenjdk/openjdk/adoptopenjdk8"
-        }
-      },
-      "adoptopenjdk11": {
-        "version": "11.0.11,9",
-        "options": {
-          "full_name": "adoptopenjdk/openjdk/adoptopenjdk11"
         }
       },
       "insomnia": {
