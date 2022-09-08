@@ -56,6 +56,7 @@ brew "tree"
 brew "watch"
 brew "wget"
 brew "youtube-dl"
+brew "zbar"
 
 # GnuPG and GPGTools/pinentry-mac
 brew "gnupg"
