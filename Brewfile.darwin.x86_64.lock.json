@@ -5,22 +5,22 @@
         "revision": "9fffe077f1a5a722ed5bd26a87ed622e8cb64e0c"
       },
       "homebrew/cask": {
-        "revision": "eb7e916d6179da2759f8d2a07fdf6776563c0e70"
+        "revision": "f777f167a151ffa00fbbee430c7f88be05b584a5"
       },
       "homebrew/cask-fonts": {
-        "revision": "c11ac84197dbde4106743e8d8d435288c97cf358"
+        "revision": "96bc4672168083d85849db03116bae3d804d8812"
       },
       "homebrew/cask-versions": {
-        "revision": "01758ddd97176b0060ed048fdf86570030c7c275"
+        "revision": "6e7f34801210f69c658e8fb2fcb618d87b2ff1c6"
       },
       "homebrew/core": {
-        "revision": "1fd926c11b88cb56ceb975d67df03011e6783eb9"
+        "revision": "5a2d0103ed068e11235200afae3853d28813bbcb"
       },
       "homebrew/services": {
         "revision": "a8f4e6d6d30386a5fbb70ba271886dcc1f3ca0f7"
       },
       "homebrew/cask-drivers": {
-        "revision": "02ded4c39baff91ed6cc30d5829f505f101ca989"
+        "revision": "07afa5c0696b503e2403e82763355159141633d1"
       },
       "pharo-project/pharo": {
         "revision": "9804b2e4edfce54308fbf4d19ff7c2599e153918"
@@ -2110,7 +2110,7 @@
         }
       },
       "font-fira-code-nerd-font": {
-        "version": "2.2.1",
+        "version": "2.2.2",
         "options": {
           "full_name": "font-fira-code-nerd-font"
         }
@@ -2146,7 +2146,7 @@
         }
       },
       "rectangle": {
-        "version": "0.58,64",
+        "version": "0.59,65",
         "options": {
           "full_name": "rectangle"
         }
@@ -2216,9 +2216,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.6.0-4-g8a807dc",
+        "HOMEBREW_VERSION": "3.6.0-24-g5524b30",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "1fd926c11b88cb56ceb975d67df03011e6783eb9",
+        "Homebrew/homebrew-core": "5a2d0103ed068e11235200afae3853d28813bbcb",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"
