@@ -5,16 +5,16 @@
         "revision": "9fffe077f1a5a722ed5bd26a87ed622e8cb64e0c"
       },
       "homebrew/cask": {
-        "revision": "f777f167a151ffa00fbbee430c7f88be05b584a5"
+        "revision": "9a390247adc6c8d197642e09555d65da35c0bcd3"
       },
       "homebrew/cask-fonts": {
         "revision": "96bc4672168083d85849db03116bae3d804d8812"
       },
       "homebrew/cask-versions": {
-        "revision": "6e7f34801210f69c658e8fb2fcb618d87b2ff1c6"
+        "revision": "ddfddac7a1b989954313603eb080378f5057102c"
       },
       "homebrew/core": {
-        "revision": "5a2d0103ed068e11235200afae3853d28813bbcb"
+        "revision": "6f7e54470b33fe838ac4fbccd47d743a8baee15d"
       },
       "homebrew/services": {
         "revision": "a8f4e6d6d30386a5fbb70ba271886dcc1f3ca0f7"
@@ -2140,7 +2140,7 @@
         }
       },
       "google-drive": {
-        "version": "62.0.2",
+        "version": "63.0.5",
         "options": {
           "full_name": "google-drive"
         }
@@ -2218,7 +2218,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "3.6.0-24-g5524b30",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5a2d0103ed068e11235200afae3853d28813bbcb",
+        "Homebrew/homebrew-core": "6f7e54470b33fe838ac4fbccd47d743a8baee15d",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"
