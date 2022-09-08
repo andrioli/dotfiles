@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -o pipefail
+
+if [[ $OSTYPE == 'darwin'* ]]; then
+    # Capture screen (interactive mode) to the clipboard in PNG format
+    screencapture -i -c -tpng
+    # Paste image do Zbar and copy the decoded output to clipboard
+    pngpaste - | zbarimg -q --raw - | pbcopy
+    if [ $? -eq 0 ]; then
+        osascript -e 'display notification "Decoded and copied to clipboard!" with title "zbar-screencapture"'
+        exit 0;
+    fi
+fi
+
+osascript -e 'display notification "Oops, something went wrong!" with title "zbar-screencapture"'
+exit 1
+
