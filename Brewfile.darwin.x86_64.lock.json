@@ -5,22 +5,22 @@
         "revision": "95e1114e202c57887b761e268f43f0077f593f0f"
       },
       "homebrew/cask": {
-        "revision": "453312f43c4959afb276d663cd422a74dbf37f75"
+        "revision": "5b69e6781a062b6776a27cdeb1e4b019ba6f9ba8"
       },
       "homebrew/cask-fonts": {
         "revision": "8fef229ebe25d19ce0d3fca85d939c9df7aaf291"
       },
       "homebrew/cask-versions": {
-        "revision": "ae709e9927e667964b5e5312c7ca9932af9b0519"
+        "revision": "47020078c7cc64897553686501977915a7136dea"
       },
       "homebrew/core": {
-        "revision": "e950ab9c788ad6f80aade0e94c1a2109049aea48"
+        "revision": "9e0349a996a3857a17f2b581de15b0c550fca310"
       },
       "homebrew/services": {
         "revision": "b57b4bf4323d6cf6734bb48ccdc366c321504940"
       },
       "homebrew/cask-drivers": {
-        "revision": "b1009febfd4022de1caf068e0fb2c5e8f947c6fa"
+        "revision": "8ee37654da7039b81492e8a3cecdbae0fb9c5b9a"
       },
       "pharo-project/pharo": {
         "revision": "9804b2e4edfce54308fbf4d19ff7c2599e153918"
@@ -872,15 +872,15 @@
         }
       },
       "gradle": {
-        "version": "7.5.1",
+        "version": "7.5.1_1",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "all": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:022acd562e864e9ffd39dabc3c5c45df19b7ebe9aa0dee25b895ef410a01a3b9",
-              "sha256": "022acd562e864e9ffd39dabc3c5c45df19b7ebe9aa0dee25b895ef410a01a3b9"
+              "url": "https://ghcr.io/v2/homebrew/core/gradle/blobs/sha256:b8a590221ce177514ddff10c925b892ee856b9a23cc28dc623124b12991a90c5",
+              "sha256": "b8a590221ce177514ddff10c925b892ee856b9a23cc28dc623124b12991a90c5"
             }
           }
         }
@@ -2255,9 +2255,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.6.2-8-g2cacd04",
+        "HOMEBREW_VERSION": "3.6.2-17-g0b602f6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e950ab9c788ad6f80aade0e94c1a2109049aea48",
+        "Homebrew/homebrew-core": "9e0349a996a3857a17f2b581de15b0c550fca310",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"
