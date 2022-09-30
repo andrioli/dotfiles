@@ -5,22 +5,22 @@
         "revision": "73b77351709591cadc3f4a918b3276ee82cafbad"
       },
       "homebrew/cask": {
-        "revision": "db4bdf3cf6b8f875d52b7807015fa07a5cc81270"
+        "revision": "7147e7603c9807e5a217dd744e573de72e075530"
       },
       "homebrew/cask-fonts": {
-        "revision": "acadf2ba9a0e5508e7e945076eb26b7d549236ca"
+        "revision": "72236f3eaad4638c0b64953c8b927b7b4c345335"
       },
       "homebrew/cask-versions": {
-        "revision": "667743cb4ad87ecd1d1790d4b570b911b7df680c"
+        "revision": "0ffac592a8ec52e778bb76b73f752b06e38aeb17"
       },
       "homebrew/core": {
-        "revision": "c50e742076cee652105ccb16a72f5548982c2e25"
+        "revision": "622ef663c58873be447f9983af66c02002d8d8fc"
       },
       "homebrew/services": {
         "revision": "954801711b1562739176e83bc0ce0a265abdea98"
       },
       "homebrew/cask-drivers": {
-        "revision": "b99c0b1bd67593ff21f6057f4ec46ebcc6cc2437"
+        "revision": "5409d0ca44c2582557d7e41f40b77b20a011e1b4"
       },
       "pharo-project/pharo": {
         "revision": "9804b2e4edfce54308fbf4d19ff7c2599e153918"
@@ -2207,7 +2207,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.94.872,7a9200fe,18",
+        "version": "1.1.95.893,6cf4d40c,39",
         "options": {
           "full_name": "spotify"
         }
@@ -2219,7 +2219,7 @@
         }
       },
       "vagrant": {
-        "version": "2.3.0",
+        "version": "2.3.1",
         "options": {
           "full_name": "vagrant"
         }
@@ -2397,9 +2397,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "3.6.3-26-g5e33b8d",
+        "HOMEBREW_VERSION": "3.6.3-34-g8a00867",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c50e742076cee652105ccb16a72f5548982c2e25",
+        "Homebrew/homebrew-core": "622ef663c58873be447f9983af66c02002d8d8fc",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "10.15.7"
