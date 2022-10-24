@@ -5,7 +5,7 @@
         "revision": "cf8a86177665825a7f30780e8fe1af333a0527c6"
       },
       "homebrew/cask": {
-        "revision": "5c0f90618c7fd554e4832850199a942c130f096e"
+        "revision": "c770e3c95b0da8c1312e2c6bdd4f5e8b3de00561"
       },
       "homebrew/cask-fonts": {
         "revision": "483f51d368cfbd7e3f935844b5abf7f76472fef5"
@@ -14,7 +14,7 @@
         "revision": "cd81bfefb913002817635da9835183ed96de50e4"
       },
       "homebrew/core": {
-        "revision": "ca4ff78953edd755efd358d1760e352e959f7eec"
+        "revision": "a9a9dac2cca9b52db9214c013939b725ba5c083d"
       },
       "homebrew/services": {
         "revision": "4fe8e3c38c9a38f1d76c9d741f32bdfe8c59e340"
@@ -2466,7 +2466,7 @@
         }
       },
       "displaylink": {
-        "version": "1.5,2021-09",
+        "version": "1.7.1,2022-07",
         "options": {
           "full_name": "displaylink"
         }
@@ -2511,13 +2511,13 @@
   },
   "system": {
     "macos": {
-      "catalina": {
-        "HOMEBREW_VERSION": "3.6.6-37-g2365c6b",
+      "big_sur": {
+        "HOMEBREW_VERSION": "3.6.6-39-g6a7eac2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ca4ff78953edd755efd358d1760e352e959f7eec",
-        "CLT": "12.4.0.0.1.1610135815",
-        "Xcode": "12.4",
-        "macOS": "10.15.7"
+        "Homebrew/homebrew-core": "a9a9dac2cca9b52db9214c013939b725ba5c083d",
+        "CLT": "13.2.0.0.1.1638488800",
+        "Xcode": "13.2.1",
+        "macOS": "11.7"
       }
     }
   }
