@@ -14,7 +14,7 @@
         "revision": "cfba375be895c9a40b0d8cb0ca3cbde9a72ebbda"
       },
       "homebrew/core": {
-        "revision": "294dc2f627e57f2548df130ad2bba0ce473a3717"
+        "revision": "5a67b85d82d87a36b8a1ac9c206a0ffccc18b6bf"
       },
       "homebrew/services": {
         "revision": "4fe8e3c38c9a38f1d76c9d741f32bdfe8c59e340"
@@ -508,6 +508,11 @@
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:41efa9a76b9e62d701778c81edac50a80dc79199b06b1d4857651f9169b87c39",
+              "sha256": "41efa9a76b9e62d701778c81edac50a80dc79199b06b1d4857651f9169b87c39"
+            },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:39057770aa013dbeb401c9fe470b7fddc414d0b700972f56a7308265df3458e6",
@@ -1464,6 +1469,11 @@
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:09c437820d4fe8b80ba4a51613273faaeb241ffa473cdecbd62e6c2a80f82471",
+              "sha256": "09c437820d4fe8b80ba4a51613273faaeb241ffa473cdecbd62e6c2a80f82471"
+            },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/gitui/blobs/sha256:4ce4ae54339401e508a86c1d5da21e67804a0222750190a38442a3389e447d5d",
@@ -2537,12 +2547,12 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.6.6-39-g6a7eac2",
+        "HOMEBREW_VERSION": "3.6.7-14-g4c9eee3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "294dc2f627e57f2548df130ad2bba0ce473a3717",
+        "Homebrew/homebrew-core": "5a67b85d82d87a36b8a1ac9c206a0ffccc18b6bf",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
-        "macOS": "11.7"
+        "macOS": "11.7.1"
       }
     }
   }
