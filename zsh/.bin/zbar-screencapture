@@ -11,8 +11,8 @@ if [[ $OSTYPE == 'darwin'* ]]; then
         osascript -e 'display notification "Decoded and copied to clipboard!" with title "zbar-screencapture"'
         exit 0;
     fi
+    osascript -e 'display notification "Oops, something went wrong!" with title "zbar-screencapture"'
 fi
 
-osascript -e 'display notification "Oops, something went wrong!" with title "zbar-screencapture"'
 exit 1
 
