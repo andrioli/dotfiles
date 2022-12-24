@@ -56,6 +56,17 @@ function git-cleanup() {
   fi
 }
 
+function github-clone-all() {
+  gh repo list $1 --limit 1000 | while read -r repo _; do
+    gh repo clone "$repo" "$repo" -- -q 2>/dev/null || (
+      cd "$repo"
+      pwd
+      git-cleanup
+      echo
+    )
+  done
+}
+
 function docker-summary() {
   echo "${bold}Containers:${normal}"
   docker ps -a
