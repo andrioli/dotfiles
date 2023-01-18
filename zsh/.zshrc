@@ -52,6 +52,9 @@ eval "$(direnv hook zsh)"
 
 # Configure jEnv
 eval "$(jenv init -)"
+if [ ! -L ~/.jenv/plugins/export ]; then
+  jenv enable-plugin export
+fi
 
 # Configure chruby
 source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
