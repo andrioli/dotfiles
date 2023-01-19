@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cmd=$(which -a $(basename $0) | grep -v $0 | head -n 1)
+
+if [ -x $PWD/mvnw ]; then
+  cmd="$PWD/mvnw"
+fi
+
+$cmd "$@"
