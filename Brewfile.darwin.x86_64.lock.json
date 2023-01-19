@@ -5,19 +5,19 @@
         "revision": "909b74959154c79eaf50b156b13dcf48406050df"
       },
       "homebrew/cask": {
-        "revision": "6c8f16cfda7fe1760877c479ffe304ac63f33749"
+        "revision": "af5fbd99b0e329ee3b3dffe39a039520cb8e99d6"
       },
       "homebrew/cask-fonts": {
-        "revision": "2339f3e6516cbda4cba85776e42bd9f6cf2203c5"
+        "revision": "2ea7c0fd33ee3fbd98c32471ebfc7295136b16a9"
       },
       "homebrew/cask-versions": {
-        "revision": "4eadff7ab96db6016b76aca98d8934d8d82ee262"
+        "revision": "f52eae7b6439eb95890034beeb1932381d44ff81"
       },
       "homebrew/core": {
-        "revision": "133f8e9ee6291768b732402f7631338a78cf7bca"
+        "revision": "06de4285f83165f115449733a74fc3c9f12947d3"
       },
       "homebrew/services": {
-        "revision": "c021aad2d9226b6a2e51ec8c6e88853ab3d7c06d"
+        "revision": "be917789f50ecb9658aa9f114c5031a40cb8b5a7"
       },
       "homebrew/cask-drivers": {
         "revision": "1d476752f5c59cd85d1edfd98aeddb52ac575809"
@@ -2591,7 +2591,7 @@
         }
       },
       "keybase": {
-        "version": "6.0.3,20221212203703,608e46df72",
+        "version": "6.0.4,20230113191846,6e1343b357",
         "options": {
           "full_name": "keybase"
         }
@@ -2615,7 +2615,7 @@
         }
       },
       "virtualbox": {
-        "version": "7.0.4,154605",
+        "version": "7.0.6,155176",
         "options": {
           "full_name": "virtualbox"
         }
@@ -2633,7 +2633,7 @@
         }
       },
       "whatsapp": {
-        "version": "2.2246.10",
+        "version": "2.2301.6",
         "options": {
           "full_name": "whatsapp"
         }
@@ -2681,13 +2681,13 @@
         }
       },
       "font-fira-code-nerd-font": {
-        "version": "2.2.2",
+        "version": "2.3.0",
         "options": {
           "full_name": "font-fira-code-nerd-font"
         }
       },
       "font-jetbrains-mono-nerd-font": {
-        "version": "2.2.2",
+        "version": "2.3.0",
         "options": {
           "full_name": "font-jetbrains-mono-nerd-font"
         }
@@ -2787,9 +2787,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.6.19",
+        "HOMEBREW_VERSION": "3.6.19-34-g344d32b",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "133f8e9ee6291768b732402f7631338a78cf7bca",
+        "Homebrew/homebrew-core": "06de4285f83165f115449733a74fc3c9f12947d3",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "11.7.1"
