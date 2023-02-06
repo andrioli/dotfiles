@@ -2600,12 +2600,6 @@
           "full_name": "virtualbox"
         }
       },
-      "virtualbox-extension-pack": {
-        "version": "7.0.4",
-        "options": {
-          "full_name": "virtualbox-extension-pack"
-        }
-      },
       "visual-studio-code": {
         "version": "1.75.0",
         "options": {

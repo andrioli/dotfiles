@@ -116,7 +116,6 @@ cask "vlc"
 unless isArm
   cask "vagrant"
   cask "virtualbox"
-  cask "virtualbox-extension-pack"
 end
 
 cask "visual-studio-code"
