@@ -5,22 +5,22 @@
         "revision": "65bde84265a3e9726d18323e390a15c45cdc8499"
       },
       "homebrew/cask": {
-        "revision": "3ceb497817b469b556186b969f8b8c0bbceba03f"
+        "revision": "9da035cce5f43a7a91305908c919cda2d1643571"
       },
       "homebrew/cask-fonts": {
-        "revision": "0b131d4d60bffadde35b27ed5e10cf962afafd92"
+        "revision": "ff4e24e3b1c843f6db442c63cdf40b632f91d522"
       },
       "homebrew/cask-versions": {
-        "revision": "df02d9d6392ee2934cd4d48a02c59424ead4c565"
+        "revision": "39800bc3c089e015ad86d87728da724b7faa2305"
       },
       "homebrew/core": {
-        "revision": "fea3233bc2c2b9cf0b312c9ee42302d461a07599"
+        "revision": "0bd2ff60da92f87ebab8a3cb797fab1bbc37c36b"
       },
       "homebrew/services": {
         "revision": "3f97853a2c7bc27eba94076cb08ab93d90bc2211"
       },
       "homebrew/cask-drivers": {
-        "revision": "5559ffbb6f95954767d2f556cf355688a9e6f395"
+        "revision": "565fb43ddad5ebc9cff48f2d88b988bb92b7710b"
       },
       "pharo-project/pharo": {
         "revision": "8f9dece3e056838a173ab6ccb819b74a6eb83a55"
@@ -2761,9 +2761,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.6.20-289-gebed4f5",
+        "HOMEBREW_VERSION": "3.6.20-298-g8fdf6ac",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "fea3233bc2c2b9cf0b312c9ee42302d461a07599",
+        "Homebrew/homebrew-core": "0bd2ff60da92f87ebab8a3cb797fab1bbc37c36b",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "11.7.3"
