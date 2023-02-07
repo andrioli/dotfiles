@@ -1,5 +1,11 @@
 instance_eval(File.read("Brewfile"))
 
+# utilities
+brew "aws-elasticbeanstalk"
+brew "awscli"
+brew "cloud-nuke"
+brew "terraform"
+
 # casks
 cask "dbeaver-community"
 cask "insomnia"
