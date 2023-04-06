@@ -79,6 +79,11 @@ alias double_quote="sed 's/^..*$/\"&\"/'"
 # Remove duplicates without change order
 alias dedup="awk '!visited[\$0]++'"
 
+# Remove accents
+# alias remove_accents="iconv -f utf8 -t ascii//TRANSLIT"
+# I was having trouble with the alias above
+alias remove_accents="sed 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuüüüüAAAAEEEEIIIIOOOOUUUUÜÜÜÜ/'"
+
 # Listing Java versions
 alias jls='/usr/libexec/java_home -V 2>&1 | grep -E "^\s+(\d+\.?)+\d(_.*,)?" | cut -d , -f 1 | colrm 1 4 | sort | uniq'
 
