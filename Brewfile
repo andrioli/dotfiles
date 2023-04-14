@@ -92,6 +92,7 @@ cask "jd-gui"
 # casks
 cask "audacity"
 cask "authy"
+cask "balenaetcher"
 cask "caffeine"
 cask "deezer"
 cask "deskreen"

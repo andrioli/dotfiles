@@ -2680,6 +2680,12 @@
         "options": {
           "full_name": "adoptopenjdk/openjdk/adoptopenjdk11"
         }
+      },
+      "balenaetcher": {
+        "version": "1.18.4",
+        "options": {
+          "full_name": "balenaetcher"
+        }
       }
     }
   },
