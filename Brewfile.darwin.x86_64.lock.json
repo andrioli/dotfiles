@@ -2692,6 +2692,12 @@
         "options": {
           "full_name": "vnc-viewer"
         }
+      },
+      "zerotier-one": {
+        "version": "1.10.6",
+        "options": {
+          "full_name": "zerotier-one"
+        }
       }
     }
   },

@@ -122,6 +122,7 @@ end
 cask "visual-studio-code"
 cask "vnc-viewer"
 cask "whatsapp"
+cask "zerotier-one"
 
 # android
 cask "android-file-transfer"
