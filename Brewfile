@@ -120,6 +120,7 @@ unless isArm
 end
 
 cask "visual-studio-code"
+cask "vnc-viewer"
 cask "whatsapp"
 
 # android

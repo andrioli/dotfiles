@@ -2686,6 +2686,12 @@
         "options": {
           "full_name": "balenaetcher"
         }
+      },
+      "vnc-viewer": {
+        "version": "7.1.0",
+        "options": {
+          "full_name": "vnc-viewer"
+        }
       }
     }
   },
