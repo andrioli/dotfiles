@@ -2704,7 +2704,7 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "4.0.14-40-g4ef6a2c",
+        "HOMEBREW_VERSION": "4.0.14-42-gd039f46",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "api",
         "CLT": "13.2.0.0.1.1638488800",
