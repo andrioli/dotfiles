@@ -2699,6 +2699,12 @@
         "options": {
           "full_name": "teamviewer"
         }
+      },
+      "openvpn-connect": {
+        "version": "3.4.2,4547",
+        "options": {
+          "full_name": "openvpn-connect"
+        }
       }
     }
   },

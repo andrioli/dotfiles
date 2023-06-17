@@ -106,6 +106,7 @@ cask "keybase" unless isArm
 cask "monitorcontrol"
 cask "mpv"
 cask "ngrok"
+cask "openvpn-connect"
 cask "pharo-launcher"
 cask "rectangle"
 cask "sparrow"
