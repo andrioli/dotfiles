@@ -2693,6 +2693,12 @@
         "options": {
           "full_name": "zerotier-one"
         }
+      },
+      "teamviewer": {
+        "version": "15.42.8",
+        "options": {
+          "full_name": "teamviewer"
+        }
       }
     }
   },
