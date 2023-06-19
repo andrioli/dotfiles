@@ -2890,12 +2890,6 @@
           "full_name": "dbeaver-community"
         }
       },
-      "openvpn-connect": {
-        "version": "3.4.2,4547",
-        "options": {
-          "full_name": "openvpn-connect"
-        }
-      },
       "balenaetcher": {
         "version": "1.18.4",
         "options": {
@@ -2918,6 +2912,12 @@
         "version": "15.42.8",
         "options": {
           "full_name": "teamviewer"
+        }
+      },
+      "openvpn-connect": {
+        "version": "3.4.2,4547",
+        "options": {
+          "full_name": "openvpn-connect"
         }
       }
     }
