@@ -8,7 +8,6 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/cask-drivers"
-tap "adoptopenjdk/openjdk"
 tap "pharo-project/pharo"
 
 # utilities
@@ -81,11 +80,6 @@ cask "java6"
 cask "temurin8"
 cask "temurin11"
 cask "temurin17"
-
-# Legacy AdoptOpenJDK (LTS Only)
-unless isArm
-  cask "adoptopenjdk/openjdk/adoptopenjdk8"
-end
 
 cask "eclipse-java"
 cask "jd-gui"
