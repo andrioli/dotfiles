@@ -3083,6 +3083,12 @@
         "options": {
           "full_name": "openvpn-connect"
         }
+      },
+      "temurin": {
+        "version": "20.0.2,9",
+        "options": {
+          "full_name": "temurin"
+        }
       }
     }
   },

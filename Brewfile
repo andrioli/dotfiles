@@ -76,7 +76,8 @@ brew "gradle"
 brew "jenv"
 cask "java6"
 
-# Eclipse Temurin JDK (LTS Only)
+# Eclipse Temurin JDK (LTS Only and latest version)
+cask "temurin"
 cask "temurin8"
 cask "temurin11"
 cask "temurin17"
