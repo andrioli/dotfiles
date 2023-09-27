@@ -3063,12 +3063,6 @@
           "full_name": "adoptopenjdk/openjdk/adoptopenjdk8"
         }
       },
-      "adoptopenjdk11": {
-        "version": "11.0.11,9",
-        "options": {
-          "full_name": "adoptopenjdk/openjdk/adoptopenjdk11"
-        }
-      },
       "balenaetcher": {
         "version": "1.18.11",
         "options": {

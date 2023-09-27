@@ -85,7 +85,6 @@ cask "temurin17"
 # Legacy AdoptOpenJDK (LTS Only)
 unless isArm
   cask "adoptopenjdk/openjdk/adoptopenjdk8"
-  cask "adoptopenjdk/openjdk/adoptopenjdk11"
 end
 
 cask "eclipse-java"
