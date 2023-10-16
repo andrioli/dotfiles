@@ -1,7 +1,5 @@
 [include]
-	path = ~/.gitconfig.profile
-[core]
-	excludesfile = ~/.gitconfig.excludesfile
+	path = ~/.config/git/profile
 [diff]
         tool = difftastic
 [difftool]

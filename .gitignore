@@ -4,3 +4,6 @@ vim/.vim/.netrwhist
 
 # zsh
 zsh/.config/zsh/.zshrc.zwc
+
+# git
+git/.config/git/profile
