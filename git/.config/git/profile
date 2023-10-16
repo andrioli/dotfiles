@@ -1,0 +1,6 @@
+[user]
+	name = Roberto Araujo
+	email = roberto.andrioli@gmail.com
+	signingkey = 0090344E20E576D1
+[commit]
+	gpgsign = true
