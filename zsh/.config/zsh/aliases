@@ -79,6 +79,9 @@ alias double_quote="sed 's/^..*$/\"&\"/'"
 # Remove duplicates without change order
 alias dedup="awk '!visited[\$0]++'"
 
+# Format XML
+alias xml-format="xmllint --format -"
+
 # Remove accents
 # alias remove_accents="iconv -f utf8 -t ascii//TRANSLIT"
 # I was having trouble with the alias above
