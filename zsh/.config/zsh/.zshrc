@@ -51,8 +51,9 @@ eval "$(starship init zsh)"
 eval "$(direnv hook zsh)"
 
 # Configure jEnv
+export JENV_ROOT=~/.config/jenv
 eval "$(jenv init -)"
-if [ ! -L ~/.jenv/plugins/export ]; then
+if [ ! -L $JENV_ROOT/plugins/export ]; then
   jenv enable-plugin export
 fi
 
