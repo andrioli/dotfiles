@@ -41,8 +41,8 @@ if [ -d ~/.bookmarks ]; then
   alias goto="cd -P"
 fi
 
-source ~/.aliases
-source ~/.functions
+source ~/.config/zsh/aliases
+source ~/.config/zsh/functions
 
 # Configure Starship
 eval "$(starship init zsh)"
