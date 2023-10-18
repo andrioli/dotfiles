@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if ! test -f /usr/local/bin/pinentry-mac; then
+  sudo ln -ns `which pinentry-mac` /usr/local/bin/pinentry-mac
+fi
+
 mkdir -p ~/.config/zsh && stow zsh
 mkdir -p ~/.config/git && stow git
 mkdir -p ~/.config/btdt && stow btdt
