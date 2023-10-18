@@ -3225,6 +3225,12 @@
         "options": {
           "full_name": "font-jetbrains-mono-nerd-font"
         }
+      },
+      "keybase": {
+        "version": "6.2.3,20230928152642,eba57c1814",
+        "options": {
+          "full_name": "keybase"
+        }
       }
     }
   },

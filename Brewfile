@@ -101,7 +101,7 @@ cask "google-chrome"
 cask "google-drive"
 cask "iterm2"
 cask "keepassx"
-cask "keybase" unless isArm
+cask "keybase"
 cask "monitorcontrol"
 cask "mpv"
 cask "ngrok"
