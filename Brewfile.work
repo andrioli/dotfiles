@@ -1,9 +1,0 @@
-instance_eval(File.read("Brewfile"))
-
-# utilities
-brew "aws-elasticbeanstalk"
-
-# casks
-cask "insomnia"
-cask "intellij-idea-ce"
-cask "zoom"
