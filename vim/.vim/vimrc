@@ -1,7 +1,7 @@
 source ~/.vim/plugins.vim
 
 " Set .viminfo file directory
-set viminfo+=n~/.cache/viminfo
+set viminfo+=n~/.cache/vim/viminfo
 
 syntax enable
 
