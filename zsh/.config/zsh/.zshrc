@@ -60,6 +60,10 @@ fi
 # Configure chruby
 source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
 
+# Configure AWS CLI location of the shared config and credentials files
+export AWS_CONFIG_FILE=~/.config/aws/config
+export AWS_SHARED_CREDENTIALS_FILE=~/.config/aws/credentials
+
 export HISTFILE=~/.cache/zsh_history
 export LESSHISTFILE=~/.cache/lesshst
 export PATH=~/.bin:$PATH
