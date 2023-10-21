@@ -36,8 +36,8 @@ fi
 
 # Simple bookmarks
 # https://threkk.medium.com/how-to-use-bookmarks-in-bash-zsh-6b8074e40774
-if [ -d ~/.bookmarks ]; then
-  export CDPATH=".:$HOME/.bookmarks:/"
+if [ -d ~/.config/bookmarks ]; then
+  export CDPATH=".:$HOME/.config/bookmarks:/"
   alias goto="cd -P"
 fi
 
