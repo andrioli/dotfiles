@@ -64,6 +64,13 @@ source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
 export AWS_CONFIG_FILE=~/.config/aws/config
 export AWS_SHARED_CREDENTIALS_FILE=~/.config/aws/credentials
 
-export HISTFILE=~/.cache/zsh_history
-export LESSHISTFILE=~/.cache/lesshst
+if [ ! -d ~/.cache/zsh ]; then
+  mkdir -p ~/.cache/zsh
+fi
+if [ ! -d ~/.cache/less ]; then
+  mkdir -p ~/.cache/less
+fi
+
+export HISTFILE=~/.cache/zsh/history
+export LESSHISTFILE=~/.cache/less/history
 export PATH=~/.bin:$PATH
