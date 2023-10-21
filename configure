@@ -25,4 +25,4 @@ ln -nsf /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home ~/.config
 ln -nsf /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-17
 ln -nsf /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-21
 ln -nsf /Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home ~/.config/jenv/versions/Apple-1.6
-echo "AdoptiumTemurin-1.8" > ~/.config/jenv/version
+echo "AdoptiumTemurin-11" > ~/.config/jenv/version
