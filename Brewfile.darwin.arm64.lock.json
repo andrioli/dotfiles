@@ -5,7 +5,7 @@
         "revision": "73fe1415f01bc26ce4df0c4f52099ab1a0ef5b9d"
       },
       "homebrew/cask": {
-        "revision": "c3c4fc7337ca17840a9f1a36a289a36a68fadf7c"
+        "revision": "a0f1091bb915e3169845904c7b4515ea501f8ab1"
       },
       "homebrew/cask-fonts": {
         "revision": "c9413d8bc7e4a716c46d0bb5ecd6bada727bae86"
@@ -14,7 +14,7 @@
         "revision": "017437e0f83012894b8c57e25af1e4bd14b64d02"
       },
       "homebrew/core": {
-        "revision": "e72ee59014cc07e0f58d6b025fbb1d52e1f92747"
+        "revision": "3041f4df7f42a52c15b9665501cb068229b66f7a"
       },
       "homebrew/services": {
         "revision": "f130d397efc2fd3d3c418839c84afce9a5c63e80"
@@ -3074,6 +3074,12 @@
           "full_name": "keepassx"
         }
       },
+      "keybase": {
+        "version": "6.2.4,20231019211625,5cfcf6b41e",
+        "options": {
+          "full_name": "keybase"
+        }
+      },
       "monitorcontrol": {
         "version": "4.2.0",
         "options": {
@@ -3204,12 +3210,6 @@
         "version": "3.0.2",
         "options": {
           "full_name": "font-jetbrains-mono-nerd-font"
-        }
-      },
-      "keybase": {
-        "version": "6.2.4,20231019211625,5cfcf6b41e",
-        "options": {
-          "full_name": "keybase"
         }
       }
     }
