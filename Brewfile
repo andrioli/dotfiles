@@ -7,7 +7,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "homebrew/cask-drivers"
 tap "pharo-project/pharo"
 
 # utilities

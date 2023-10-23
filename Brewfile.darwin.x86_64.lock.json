@@ -19,9 +19,6 @@
       "homebrew/services": {
         "revision": "f130d397efc2fd3d3c418839c84afce9a5c63e80"
       },
-      "homebrew/cask-drivers": {
-        "revision": "7c08326029287567698ab9a4a292ab7184616318"
-      },
       "pharo-project/pharo": {
         "revision": "6b56bee33abae140d7e60f6df848481f33bcab03"
       }
