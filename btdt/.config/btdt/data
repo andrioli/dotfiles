@@ -4,3 +4,4 @@ for i in `ls`; do; cd $i; pwd; git-summary; echo; cd ..; done	git summray all
 for i in `ls`; do; cd $i; pwd; git-cleanup; echo; cd ..; done	git cleanup all	
 for i in `ls`; do; cd $i; if [ -f pom.xml ]; then; mvn clean; fi; cd ..; echo; done	mvn clean all	
 for i in `ls`; do; cd $i; if [ -f pom.xml ]; then; mvn verify; fi; cd ..; echo; done	mvn verify all	
+aws ssm get-parameters-by-path --path $1 --recursive --with-decryption | jq '.Parameters[]' | jq -s 'sort_by(.Name)' | jq -r '.[] | [.Name, .Type, .Value] | @csv' | sed 's/"//g' | comma_tab	aws list parameter store	
