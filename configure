@@ -9,6 +9,7 @@ fi
 mkdir -p ~/.config/zsh && stow zsh
 mkdir -p ~/.config/git && stow git
 mkdir -p ~/.config/btdt && stow btdt
+mkdir -p ~/.m2 && stow maven
 gpg -k && stow gnupg && keybase pgp pull-private --all
 if [ ! $? -eq 0 ]; then
     # sometimes import failed
@@ -17,7 +18,6 @@ fi
 rm ~/.gnupg/public-keys.d/.\#*
 stow vim && vim -c "PlugInstall" -c "q" -c "q"
 stow starship
-stow maven
 
 mkdir -p ~/.config/jenv/versions
 ln -nsf /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-1.8
