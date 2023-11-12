@@ -96,3 +96,6 @@ alias docker-images='docker images | sed "s/  */:/g" | cut -d: -f1-2 | tail -n +
 # un-Gron aliases
 alias norg="gron --ungron"
 alias ungron="gron --ungron"
+
+# wget: disable HSTS
+alias wget="wget --no-hsts"
