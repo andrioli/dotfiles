@@ -8,6 +8,9 @@
 	cmd = difft "$LOCAL" "$REMOTE"
 [pager]
 	difftool = true
+[diff "gpg"]
+	binary = true
+	textconv = gpg2 -d --quiet --yes --compress-algo=none --no-encrypt-to --batch --use-agent
 [alias]
 	dft = difftool
 	lg = log  --graph --abbrev-commit --date=relative --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %s - %an%C(red)%d%C(reset)' --decorate --all
