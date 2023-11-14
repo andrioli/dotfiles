@@ -7,7 +7,7 @@
 [difftool "difftastic"]
 	cmd = difft "$LOCAL" "$REMOTE"
 [pager]
-        difftool = true
+	difftool = true
 [alias]
 	dft = difftool
 	lg = log  --graph --abbrev-commit --date=relative --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %s - %an%C(red)%d%C(reset)' --decorate --all
