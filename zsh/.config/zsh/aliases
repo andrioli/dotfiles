@@ -99,3 +99,6 @@ alias ungron="gron --ungron"
 
 # wget: disable HSTS
 alias wget="wget --no-hsts"
+
+# Change default chezmoi source folder
+alias chezmoi="chezmoi -S ~/dotfiles"
