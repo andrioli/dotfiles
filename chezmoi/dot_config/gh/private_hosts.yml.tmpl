@@ -1,4 +1,4 @@
 github.com:
-    user: andrioli
-    oauth_token: {{ pass "github.com/oauth_token" }}
+    user: {{ (passFields "github.com").username }}
+    oauth_token: {{ (passFields "github.com").oauth_token }}
     git_protocol: ssh
