@@ -16,7 +16,7 @@ if [ ! $? -eq 0 ]; then
     keybase pgp pull-private --all
 fi
 rm ~/.gnupg/public-keys.d/.\#*
-ln -ns $(which gpg) ~/.bin/gpg2
+ln -nsf $(which gpg) ~/.bin/gpg2
 stow vim && vim -c "PlugInstall" -c "q" -c "q"
 stow starship
 
