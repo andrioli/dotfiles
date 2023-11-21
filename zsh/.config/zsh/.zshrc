@@ -64,6 +64,9 @@ source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
 export AWS_CONFIG_FILE=~/.config/aws/config
 export AWS_SHARED_CREDENTIALS_FILE=~/.config/aws/credentials
 
+# Configure Terraform CLI config file
+export TF_CLI_CONFIG_FILE=~/.config/terraform/config.tfrc
+
 if [ ! -d ~/.cache/zsh ]; then
   mkdir -p ~/.cache/zsh
 fi

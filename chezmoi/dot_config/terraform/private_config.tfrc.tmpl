@@ -1,0 +1,5 @@
+disable_checkpoint = true
+
+credentials "app.terraform.io" {
+  token = "{{ (passFields "app.terraform.io").token }}"
+}
