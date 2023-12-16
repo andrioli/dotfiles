@@ -85,6 +85,7 @@ cask "temurin11"
 cask "temurin17"
 
 cask "eclipse-java"
+cask "intellij-idea-ce"
 cask "jd-gui"
 
 # casks
