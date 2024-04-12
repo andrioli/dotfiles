@@ -2837,12 +2837,6 @@
           "full_name": "monitorcontrol"
         }
       },
-      "mpv": {
-        "version": null,
-        "options": {
-          "full_name": "mpv"
-        }
-      },
       "ngrok": {
         "version": "3.8.0,EEnGMfbhVg,a",
         "options": {
@@ -2979,6 +2973,12 @@
         "version": "2024.1,241.14494.240",
         "options": {
           "full_name": "intellij-idea-ce"
+        }
+      },
+      "stolendata-mpv": {
+        "version": "0.37.0",
+        "options": {
+          "full_name": "stolendata-mpv"
         }
       }
     }
