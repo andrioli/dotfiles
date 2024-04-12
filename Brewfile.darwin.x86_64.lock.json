@@ -2980,6 +2980,12 @@
         "options": {
           "full_name": "stolendata-mpv"
         }
+      },
+      "rustdesk": {
+        "version": "1.2.3",
+        "options": {
+          "full_name": "rustdesk"
+        }
       }
     }
   },
