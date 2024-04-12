@@ -2986,6 +2986,12 @@
         "options": {
           "full_name": "rustdesk"
         }
+      },
+      "rar": {
+        "version": "7.00",
+        "options": {
+          "full_name": "rar"
+        }
       }
     }
   },
