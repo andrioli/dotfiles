@@ -2915,12 +2915,6 @@
           "full_name": "visual-studio-code"
         }
       },
-      "vnc-viewer": {
-        "version": "7.10.0",
-        "options": {
-          "full_name": "vnc-viewer"
-        }
-      },
       "whatsapp": {
         "version": "2.24.6.79",
         "options": {
