@@ -3030,6 +3030,12 @@
         "options": {
           "full_name": "rar"
         }
+      },
+      "localsend": {
+        "version": "1.14.0",
+        "options": {
+          "full_name": "localsend"
+        }
       }
     }
   },
