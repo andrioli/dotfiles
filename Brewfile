@@ -10,6 +10,7 @@ tap "homebrew/services"
 tap "pharo-project/pharo"
 
 # utilities
+brew "ansible"
 brew "antigen"
 brew "awscli"
 brew "bash"
