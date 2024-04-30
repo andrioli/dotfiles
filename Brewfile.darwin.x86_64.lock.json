@@ -2761,24 +2761,6 @@
           "full_name": "temurin"
         }
       },
-      "temurin8": {
-        "version": null,
-        "options": {
-          "full_name": "temurin8"
-        }
-      },
-      "temurin11": {
-        "version": null,
-        "options": {
-          "full_name": "temurin11"
-        }
-      },
-      "temurin17": {
-        "version": null,
-        "options": {
-          "full_name": "temurin17"
-        }
-      },
       "eclipse-java": {
         "version": "4.31.0,2024-03",
         "options": {
@@ -3035,6 +3017,24 @@
         "version": "1.14.0",
         "options": {
           "full_name": "localsend"
+        }
+      },
+      "temurin@8": {
+        "version": "8,412,08",
+        "options": {
+          "full_name": "temurin@8"
+        }
+      },
+      "temurin@11": {
+        "version": "11.0.23,9",
+        "options": {
+          "full_name": "temurin@11"
+        }
+      },
+      "temurin@17": {
+        "version": "17.0.11,9",
+        "options": {
+          "full_name": "temurin@17"
         }
       }
     }

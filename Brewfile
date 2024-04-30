@@ -81,9 +81,9 @@ cask "java6"
 
 # Eclipse Temurin JDK (LTS Only and latest version)
 cask "temurin"
-cask "temurin8"
-cask "temurin11"
-cask "temurin17"
+cask "temurin@8"
+cask "temurin@11"
+cask "temurin@17"
 
 cask "eclipse-java"
 cask "intellij-idea-ce"
