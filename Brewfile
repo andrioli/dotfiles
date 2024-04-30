@@ -84,6 +84,7 @@ cask "temurin"
 cask "temurin@8"
 cask "temurin@11"
 cask "temurin@17"
+cask "temurin@21"
 
 cask "eclipse-java"
 cask "intellij-idea-ce"

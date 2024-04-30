@@ -3036,6 +3036,12 @@
         "options": {
           "full_name": "temurin@17"
         }
+      },
+      "temurin@21": {
+        "version": "21.0.3,9",
+        "options": {
+          "full_name": "temurin@21"
+        }
       }
     }
   },
