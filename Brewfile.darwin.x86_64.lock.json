@@ -5,7 +5,7 @@
         "revision": "c40173f53f56c1bf8d7b6d22d542c54fa985682d"
       },
       "homebrew/cask": {
-        "revision": "3c309bca1d69856d9eeeec86be61dfe34dc78366"
+        "revision": "6086cb370f7865ae0f20b50e4a424ddc827c3390"
       },
       "homebrew/cask-fonts": {
         "revision": "0ed20f35d21ebc3f4f829689b101078718ad5ce1"
@@ -14,7 +14,7 @@
         "revision": "057d1202c4ac9d4059909260af8d13e20fbf8cab"
       },
       "homebrew/core": {
-        "revision": "0e91561f37a7f6a4926c1305a80c379f025fd276"
+        "revision": "e23d3b8f37424c4125e744096d1f312b98eda839"
       },
       "homebrew/services": {
         "revision": "e92bd56ef97322cd3561a9eede94a58096bab90f"
