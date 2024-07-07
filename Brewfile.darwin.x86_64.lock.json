@@ -21,6 +21,9 @@
       },
       "pharo-project/pharo": {
         "revision": "6b56bee33abae140d7e60f6df848481f33bcab03"
+      },
+      "localsend/localsend": {
+        "revision": "43083ed700586485cdc706138810db718ec0713e"
       }
     },
     "brew": {
