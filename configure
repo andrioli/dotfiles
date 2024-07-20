@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# Before run this script install Homebrew and execute `./bundle-install`
+#
+# NOTE: Make sure you configured SSH keys and the password store.
+#
+# ```
+# chmod 600 ~/.ssh/*
+# chmod 644 ~/.ssh/*.pub
+# eval "$(ssh-agent -s)"
+# ssh-add ~/.ssh/key_file
+# ```
+
 source zsh/.config/zsh/.zprofile
 
 if ! test -f /usr/local/bin/pinentry-mac; then
