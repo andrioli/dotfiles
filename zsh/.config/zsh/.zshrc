@@ -6,7 +6,11 @@ export NVM_DIR=$HOME/.cache/nvm
 export NVM_LAZY_LOAD=true # nvm adds to much lag, make it lazy
 export NVM_AUTO_USE=true # make nvm automatically load or install the required node version in .nvmrc
 
-source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+if [ "$OS" = "darwin" ]; then
+  source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+else
+  source /usr/share/zsh/share/antigen.zsh
+fi
 
 antigen use oh-my-zsh
 
@@ -58,7 +62,11 @@ if [ ! -L $JENV_ROOT/plugins/export ]; then
 fi
 
 # Configure chruby
-source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
+if [ "$OS" = "darwin" ]; then
+  source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
+else
+  source /usr/share/chruby/chruby.sh
+fi
 
 # Configure AWS CLI location of the shared config and credentials files
 export AWS_CONFIG_FILE=~/.config/aws/config
@@ -72,6 +80,11 @@ if [ ! -d ~/.cache/zsh ]; then
 fi
 if [ ! -d ~/.cache/less ]; then
   mkdir -p ~/.cache/less
+fi
+
+if [ "$OS" = "linux" ]; then
+  export GPG_TTY=$(tty)
+  export EDITOR=vim
 fi
 
 export HISTFILE=~/.cache/zsh/history

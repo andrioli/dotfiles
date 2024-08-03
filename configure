@@ -13,28 +13,48 @@
 
 source zsh/.config/zsh/.zprofile
 
-if ! test -f /usr/local/bin/pinentry-mac; then
-  sudo ln -ns `which pinentry-mac` /usr/local/bin/pinentry-mac
+# Only create pinentry-mac (if missing) and gpg2 symlinks on macOS
+if [ "$OS" = "darwin" ]; then
+    if [ ! -f /usr/local/bin/pinentry-mac ]; then
+        sudo ln -ns `which pinentry-mac` /usr/local/bin/pinentry-mac
+    fi
+    mkdir -p ~/.bin
+    ln -nsf $(which gpg) ~/.bin/gpg2
 fi
 
 mkdir -p ~/.config/zsh && stow zsh
 mkdir -p ~/.config/git && stow git
 mkdir -p ~/.config/btdt && stow btdt
 mkdir -p ~/.m2 && stow maven
-gpg -k && stow gnupg && keybase pgp pull-private --all
-if [ ! $? -eq 0 ]; then
-    # sometimes import failed
-    keybase pgp pull-private --all
+
+# I need to fix this for Linux
+if [ "$OS" = "darwin" ]; then
+    gpg -k && stow gnupg && keybase pgp pull-private --all
+    if [ ! $? -eq 0 ]; then
+        # sometimes import fails
+        keybase pgp pull-private --all
+    fi
+    rm ~/.gnupg/public-keys.d/.\#*
 fi
-rm ~/.gnupg/public-keys.d/.\#*
-ln -nsf $(which gpg) ~/.bin/gpg2
+
 stow vim && vim -c "PlugInstall" -c "q" -c "q"
 stow starship
 
+# Configure Java versions with jEvn
 mkdir -p ~/.config/jenv/versions
-ln -nsf /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-1.8
-ln -nsf /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-11
-ln -nsf /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-17
-ln -nsf /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-21
-ln -nsf /Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home ~/.config/jenv/versions/Apple-1.6
+if [ "$OS" = "darwin" ]; then
+    ln -nsf /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-11
+    ln -nsf /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-17
+    ln -nsf /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-21
+    # These versions are only available for Intel macOS
+    if [ "$ARCH" = "x86_64" ]; then
+        ln -nsf /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home ~/.config/jenv/versions/AdoptiumTemurin-1.8
+        ln -nsf /Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home ~/.config/jenv/versions/Apple-1.6
+    fi
+else
+    ln -nsf /usr/lib/jvm/java-11-temurin ~/.config/jenv/versions/AdoptiumTemurin-11
+    ln -nsf /usr/lib/jvm/java-17-temurin ~/.config/jenv/versions/AdoptiumTemurin-17
+    ln -nsf /usr/lib/jvm/java-21-temurin ~/.config/jenv/versions/AdoptiumTemurin-21
+fi
+# Configure default Java version
 echo "AdoptiumTemurin-11" > ~/.config/jenv/version
