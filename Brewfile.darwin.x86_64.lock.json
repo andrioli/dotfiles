@@ -2769,6 +2769,20 @@
             }
           }
         }
+      },
+      "virt-manager": {
+        "version": "4.1.0_7",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/virt-manager/blobs/sha256:67acfb8187105c4c0f551dd26980cfdc44a8aba4b478034facc0d9e29cd3fbd9",
+              "sha256": "67acfb8187105c4c0f551dd26980cfdc44a8aba4b478034facc0d9e29cd3fbd9"
+            }
+          }
+        }
       }
     },
     "cask": {
