@@ -3079,6 +3079,12 @@
         "options": {
           "full_name": "temurin@21"
         }
+      },
+      "vnc-viewer": {
+        "version": "7.12.1",
+        "options": {
+          "full_name": "vnc-viewer"
+        }
       }
     }
   },

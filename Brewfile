@@ -129,10 +129,7 @@ unless isArm
 end
 
 cask "visual-studio-code"
-
-# https://github.com/Homebrew/homebrew-cask/issues/170753
-# cask "vnc-viewer"
-
+cask "vnc-viewer"
 cask "whatsapp"
 cask "zerotier-one"
 
