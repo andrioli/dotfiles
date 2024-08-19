@@ -94,7 +94,6 @@ cask "jd-gui"
 
 # casks
 cask "audacity"
-cask "authy"
 cask "balenaetcher"
 cask "caffeine"
 cask "dbeaver-community"
@@ -150,5 +149,9 @@ cask "font-jetbrains-mono-nerd-font"
 # conflicts
 # brew "gdu" # conflicts with transitive brew coreutils
 
+# Deprecated
+# https://help.twilio.com/articles/19753631228315
+# https://help.twilio.com/articles/22771146070299
+# cask "authy"
 # not working with MacOS.version >= :catalina
 # cask "horndis"
