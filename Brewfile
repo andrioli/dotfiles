@@ -2,8 +2,6 @@ isArm = Hardware::CPU.arm?
 
 # taps
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "localsend/localsend"
 tap "pharo-project/pharo"
