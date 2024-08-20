@@ -77,11 +77,11 @@ brew "maven"
 brew "ant"
 brew "gradle"
 brew "jenv"
-cask "java6"
+cask "java6" unless isArm
 
 # Eclipse Temurin JDK (LTS Only and latest version)
 cask "temurin"
-cask "temurin@8"
+cask "temurin@8" unless isArm
 cask "temurin@11"
 cask "temurin@17"
 cask "temurin@21"
