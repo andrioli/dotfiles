@@ -2677,12 +2677,6 @@
           "full_name": "audacity"
         }
       },
-      "authy": {
-        "version": "2.5.0",
-        "options": {
-          "full_name": "authy"
-        }
-      },
       "balenaetcher": {
         "version": "1.19.21",
         "options": {
