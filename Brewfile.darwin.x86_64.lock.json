@@ -7,12 +7,6 @@
       "homebrew/cask": {
         "revision": "579640977a557522ba8b164f06f8c4d70b9001f0"
       },
-      "homebrew/cask-fonts": {
-        "revision": "0ed20f35d21ebc3f4f829689b101078718ad5ce1"
-      },
-      "homebrew/cask-versions": {
-        "revision": "057d1202c4ac9d4059909260af8d13e20fbf8cab"
-      },
       "homebrew/core": {
         "revision": "a1d339e91e9199611c232d5bb06721c3a6ea536b"
       },
