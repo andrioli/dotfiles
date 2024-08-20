@@ -24,7 +24,6 @@ brew "ddrescue"
 brew "diff-so-fancy"
 brew "difftastic"
 brew "direnv"
-brew "exa"
 brew "fd"
 brew "fdupes"
 brew "fzf"
@@ -57,7 +56,6 @@ brew "stgit"
 brew "stow"
 brew "terraform"
 brew "testdisk"
-brew "textql"
 brew "tig"
 brew "tmux"
 brew "tree"
@@ -140,16 +138,19 @@ cask "font-fira-code-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 
+# disabled
+# brew "exa"
+# brew "textql"
+
 # deprecated
 # brew "q"
 # brew "truncate"
+# https://help.twilio.com/articles/19753631228315
+# https://help.twilio.com/articles/22771146070299
+# cask "authy"
 
 # conflicts
 # brew "gdu" # conflicts with transitive brew coreutils
 
-# Deprecated
-# https://help.twilio.com/articles/19753631228315
-# https://help.twilio.com/articles/22771146070299
-# cask "authy"
 # not working with MacOS.version >= :catalina
 # cask "horndis"
